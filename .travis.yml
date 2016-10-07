@@ -1,0 +1,40 @@
+# Config file for automatic testing at travis-ci.org
+
+language: python
+
+python:
+  - 2.7
+  - 3.5
+
+env:
+  - TOXENV=sphinx11
+  - TOXENV=sphinx14
+
+matrix:
+  include:
+    - python: 3.5
+      env: TOXENV=quality
+    - python: 3.5
+      env: TOXENV=docs
+
+cache:
+  - pip
+
+install:
+  - pip install -r requirements/travis.txt
+
+script:
+  - tox
+
+after_success:
+  - codecov
+
+deploy:
+  provider: pypi
+  user: edx
+  distributions: sdist bdist_wheel
+  on:
+    tags: true
+    condition: '$TOXENV = quality'
+  password:
+    secure: sxMcdG1leHZrMeBDJuWdHkbxasgh+NWy+GOGx7TBIy2xevo0Q9uXKWYn9C4JWjR7K5oA2Y2uG0DyTAtV8KxuEXlBRbaETZwCdVlSREh0U4Ul6HDPXtNWr/c8xB5ngUptlnF9wfJsMi85dw3X4NgNJxl5eqkXIwtM5Ojjhs2HXSPIvAr4ZUozge3cD5FwEinuhm21mhZI74GhjgVO9yHhGPI4WVc8U+MmhVjGpBcssDfk6XyVpFgr26RCbZrr8bQbtAz1jBdAEzVmafL2NgRozZQilEXKkzJGknchcK2IrQ2pOq2CjBf//5piR94xRjvjlxDXj7oUKleqUoW6Ut332rmSC4dIma7pkXsZjTND5eSJpnpVUw+lONFLxCE5C/G+Wqokyxf0Hj+iiN7etbOjBCd8prn9OLDDw1nN227I4INg7ichjgPQRp3U4UT8bv0WaIKXOLprU9QA9Tz9+UrqykKkuVlX4xVjtiden8xdjs3B4zUbRYRxnEoENGCPu2ntUurk+rJChcptYTUVhY2fS5TLlZ6CDh0A5LjdrmXeGouU8IcIkNCDlagWwqvU/0x4B6ZGZKznrUFR57l2tXl5z4DuVXlC8fJofFNZZd4yuqvvdKp3493i2PAaIUgMJ8y7eG3ad83DWHH27zW6fQD25iYGRL6J50Wx5cyumAL9ri8=
