@@ -23,15 +23,15 @@ This theme makes the following changes to the default Sphinx output:
 
 To use edx-sphinx-theme for a repository's documentation:
 
-  * ``pip install edx-sphinx-theme`` or equivalent (add ``edx-sphinx-theme``
-    to any appropriate requirements files)
-  * Add ``edx_theme`` to the ``extensions`` list in conf.py (it adds the
-    feedback form URL to the rendering context for each page).
-  * Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the
-    theme can be located and loaded.
-  * Use the ``AUTHOR`` and ``COPYRIGHT`` constants where appropriate in conf.py
-    (these defaults are only provided as a convenience, the repository is free
-    to use other values if appropriate).
+* ``pip install edx-sphinx-theme`` or equivalent (add ``edx-sphinx-theme``
+  to any appropriate requirements files)
+* Add ``edx_theme`` to the ``extensions`` list in conf.py (it adds the
+  feedback form URL to the rendering context for each page).
+* Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the
+  theme can be located and loaded.
+* Use the ``AUTHOR`` and ``COPYRIGHT`` constants where appropriate in conf.py
+  (these defaults are only provided as a convenience, the repository is free
+  to use other values if appropriate).
 
 For example:
 
@@ -45,7 +45,7 @@ For example:
     author = edx_theme.AUTHOR
 
     html_theme = 'edx_theme'
-    html_theme_path = [edx_theme.get_path()]
+    html_theme_path = [edx_theme.get_html_theme_path()]
 
     latex_documents = [
         (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
