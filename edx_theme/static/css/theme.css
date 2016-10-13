@@ -3456,7 +3456,9 @@ footer p {
 	content: "\00a0\f08e ";
 	color: #b3b3b3;
 	vertical-align: super;
-	font-size: 60%
+	font-size: 60%;
+	display: inline-block;
+	margin-top: -1em;
 }
 .rst-content blockquote {
 	margin-left: 24px;
