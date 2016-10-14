@@ -2606,6 +2606,7 @@ code, .rst-content tt {
 	background: #fff;
 	border: solid 1px #e1e4e5;
 	font-size: 75%;
+	line-height: 0;
 	padding: 0 5px;
 	font-family: "Incosolata", "Consolata", "Monaco", monospace;
 	color: #e74c3c;
