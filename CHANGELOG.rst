@@ -14,6 +14,11 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
+[1.0.1] - 2016-10-14
+~~~~~~~~~~~~~~~~~~~~
+
+* Fixed two instances of line-height being slightly increased in an ugly way.
+
 [1.0] - 2016-10-07
 ~~~~~~~~~~~~~~~~~~
 
