@@ -14,6 +14,11 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
+[1.0.2] - 2016-11-09
+~~~~~~~~~~~~~~~~~~~~
+
+* Added favicon and .eot font file to distributed package
+
 [1.0.1] - 2016-10-14
 ~~~~~~~~~~~~~~~~~~~~
 

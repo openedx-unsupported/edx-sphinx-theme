@@ -55,7 +55,7 @@ requirements: ## install development environment requirements
 	pip-sync requirements/base.txt requirements/dev.txt requirements/private.* requirements/test.txt
 
 test: clean ## run tests in the current virtualenv
-	py.test --cov edx_them
+	py.test --cov edx_theme
 
 test-all: ## run tests on every supported Python/Sphinx combination
 	tox -e quality

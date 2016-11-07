@@ -10,7 +10,7 @@ import six
 from six.moves.urllib.parse import quote
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '1.0.1'
+__version__ = '1.0.2'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'

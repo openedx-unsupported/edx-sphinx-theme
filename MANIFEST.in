@@ -3,4 +3,4 @@ include CHANGELOG.rst
 include CONTRIBUTING.rst
 include LICENSE.txt
 include README.rst
-recursive-include edx_theme *.conf *.html *.png *.gif *.js *.css *.jpg *.jpeg *.svg *.ttf *.woff *.py
+recursive-include edx_theme *.conf *.html *.png *.gif *.ico *.js *.css *.jpg *.jpeg *.eot *.svg *.ttf *.woff *.py
