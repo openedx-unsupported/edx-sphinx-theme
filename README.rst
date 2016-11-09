@@ -1,10 +1,29 @@
-edx-sphinx-theme  |Travis|_ |Codecov|_
-======================================
-.. |Travis| image:: https://travis-ci.org/edx/edx-sphinx-theme.svg?branch=master
-.. _Travis: https://travis-ci.org/edx/edx-sphinx-theme
+edx-sphinx-theme
+================
 
-.. |Codecov| image:: http://codecov.io/github/edx/edx-sphinx-theme/coverage.svg?branch=master
-.. _Codecov: http://codecov.io/github/edx/edx-sphinx-theme?branch=master
+.. image:: https://img.shields.io/pypi/v/edx-sphinx-theme.svg
+    :target: https://pypi.python.org/pypi/edx-sphinx-theme/
+    :alt: PyPI
+
+.. image:: https://travis-ci.org/edx/edx-sphinx-theme.svg?branch=master
+    :target: https://travis-ci.org/edx/edx-sphinx-theme
+    :alt: Travis
+
+.. image:: http://codecov.io/github/edx/edx-sphinx-theme/coverage.svg?branch=master
+    :target: http://codecov.io/github/edx/edx-sphinx-theme?branch=master
+    :alt: Codecov
+
+.. image:: http://edx-sphinx-theme.readthedocs.io/en/latest/?badge=latest
+    :target: http://edx-sphinx-theme.readthedocs.io/en/latest/
+    :alt: Documentation
+
+.. image:: https://img.shields.io/pypi/pyversions/edx-sphinx-theme.svg
+    :target: https://pypi.python.org/pypi/edx-sphinx-theme/
+    :alt: Supported Python versions
+
+.. image:: https://img.shields.io/github/license/edx/edx-sphinx-theme.svg
+    :target: https://github.com/edx/edx-sphinx-theme/blob/master/LICENSE.txt
+    :alt: License
 
 edx-sphinx-theme is a Sphinx theme for `Open edX`_ documentation.  It should be
 used for all documentation in repositories in the ``edx`` GitHub organization
@@ -51,6 +70,20 @@ For example:
         (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
          author, 'manual'),
     ]
+
+Read the Docs Configuration
+---------------------------
+
+Because this theme is a Python package which needs to be installed, `Read the
+Docs`_ needs to be configured appropriately to be able to install it when
+performing documentation builds.  Under ``Advanced Settings``:
+
+* ``Install your project inside a virtualenv using setup.py install`` should
+  be checked
+* ``Requirements file`` should point to a pip requirements file which includes
+  ``open-edx-theme``.
+
+.. _Read the Docs: https://readthedocs.org/
 
 Documentation
 -------------
