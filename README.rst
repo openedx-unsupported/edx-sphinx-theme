@@ -13,7 +13,7 @@ edx-sphinx-theme
     :target: http://codecov.io/github/edx/edx-sphinx-theme?branch=master
     :alt: Codecov
 
-.. image:: http://edx-sphinx-theme.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/edx-sphinx-theme/badge/?version=latest
     :target: http://edx-sphinx-theme.readthedocs.io/en/latest/
     :alt: Documentation
 
@@ -48,6 +48,7 @@ To use edx-sphinx-theme for a repository's documentation:
   feedback form URL to the rendering context for each page).
 * Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the
   theme can be located and loaded.
+* Set ``html_favicon`` to the path of the favicon.ico file in the theme.
 * Use the ``AUTHOR`` and ``COPYRIGHT`` constants where appropriate in conf.py
   (these defaults are only provided as a convenience, the repository is free
   to use other values if appropriate).
@@ -56,6 +57,7 @@ For example:
 
 .. code-block:: python
 
+    import os
     import edx_theme
 
     extensions = ['edx_theme']
@@ -65,6 +67,7 @@ For example:
 
     html_theme = 'edx_theme'
     html_theme_path = [edx_theme.get_html_theme_path()]
+    html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
     latex_documents = [
         (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
