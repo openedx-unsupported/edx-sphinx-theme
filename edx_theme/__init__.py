@@ -10,7 +10,7 @@ import six
 from six.moves.urllib.parse import quote
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '1.0.2'
+__version__ = '1.1.0'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'
@@ -47,6 +47,15 @@ def setup(app):
 
     Arguments:
         app (Sphinx): Application object for the Sphinx process
+
+    Returns:
+        a dictionary of metadata (http://www.sphinx-doc.org/en/stable/extdev/#extension-metadata)
     """
     event = 'html-page-context' if six.PY3 else b'html-page-context'
     app.connect(event, update_context)
+
+    return {
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+        'version': __version__,
+    }
