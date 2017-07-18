@@ -10,11 +10,11 @@ import six
 from six.moves.urllib.parse import quote
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'
-COPYRIGHT = '2016, edX Inc.'
+COPYRIGHT = '2017, edX Inc.'
 
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/" \
                     "viewform?entry.1952574704&entry.241692674={pageid}"
