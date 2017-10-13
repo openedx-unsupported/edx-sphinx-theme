@@ -14,6 +14,11 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
+[1.3.0] - 2017-10-13
+~~~~~~~~~~~~~~~~~~~~
+
+* Added support for the ``navigation_depth`` theme option.
+
 [1.2.0] - 2017-07-18
 ~~~~~~~~~~~~~~~~~~~~
 
