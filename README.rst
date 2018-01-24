@@ -49,9 +49,9 @@ To use edx-sphinx-theme for a repository's documentation:
 * Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the
   theme can be located and loaded.
 * Set ``html_favicon`` to the path of the favicon.ico file in the theme.
-* Use the ``AUTHOR`` and ``COPYRIGHT`` constants where appropriate in conf.py
-  (these defaults are only provided as a convenience, the repository is free
-  to use other values if appropriate).
+* Use the ``AUTHOR`` constant where appropriate in conf.py
+  (this default is only provided as a convenience; the repository is free
+  to use another value if appropriate).
 
 For example:
 
@@ -62,7 +62,7 @@ For example:
 
     extensions = ['edx_theme']
 
-    copyright = edx_theme.COPYRIGHT
+    copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
     author = edx_theme.AUTHOR
 
     html_theme = 'edx_theme'

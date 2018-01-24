@@ -4,6 +4,7 @@ A Sphinx theme for Open edX documentation.
 
 from __future__ import absolute_import, print_function, unicode_literals
 
+import datetime
 import os
 
 import six
@@ -14,7 +15,7 @@ __version__ = '1.3.0'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'
-COPYRIGHT = '2018, edX Inc.'
+COPYRIGHT = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/" \
                     "viewform?entry.1952574704&entry.241692674={pageid}"

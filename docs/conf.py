@@ -15,6 +15,7 @@ serve to show the default.
 
 from __future__ import absolute_import, unicode_literals
 
+import datetime
 import os
 import sys
 from subprocess import check_call
@@ -71,7 +72,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'edx-sphinx-theme'
-copyright = edx_theme.COPYRIGHT  # pylint: disable=redefined-builtin
+copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)  # pylint: disable=redefined-builtin
 author = edx_theme.AUTHOR
 
 # The version info for the project you're documenting, acts as replacement for
