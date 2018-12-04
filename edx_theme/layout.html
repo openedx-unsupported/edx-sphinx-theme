@@ -101,7 +101,7 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix">
-        {% set toctree = toctree(maxdepth=theme_navigation_depth|int, collapse=False) %}
+        {% set toctree = toctree(maxdepth=theme_navigation_depth|int, includehidden=theme_includehidden|tobool, collapse=False) %}
         {% if toctree %}
             {{ toctree }}
         {% else %}

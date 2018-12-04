@@ -14,6 +14,12 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
+[1.4.0] - 2018-12-04
+~~~~~~~~~~~~~~~~~~~~
+
+* Added support for the ``includehidden`` theme option. This shows a hidden toc
+  in sidebar.
+
 * Upgraded many dependencies.
 
 [1.3.0] - 2017-10-13
