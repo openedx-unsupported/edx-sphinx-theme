@@ -11,7 +11,7 @@ import six
 from six.moves.urllib.parse import quote
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '1.3.0'
+__version__ = '1.4.0'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'

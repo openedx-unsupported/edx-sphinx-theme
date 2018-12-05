@@ -14,6 +14,8 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
+* Upgraded many dependencies.
+
 [1.3.0] - 2017-10-13
 ~~~~~~~~~~~~~~~~~~~~
 
