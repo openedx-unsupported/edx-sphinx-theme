@@ -1,4 +1,6 @@
 # Requirements for documentation validation
 
+-c constraints.txt
+
 doc8                      # reStructuredText style checker
 readme_renderer           # Validates README.rst for usage on PyPI

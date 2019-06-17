@@ -1,4 +1,6 @@
 # Core requirements for using this application
 
+-c constraints.txt
+
 six                       # For Python 2 & 3 compatibility
 Sphinx                    # Documentation system
