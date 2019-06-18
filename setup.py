@@ -35,7 +35,7 @@ def load_requirements(*requirements_paths):
                 line.split('#')[0].strip() for line in reqs
                 if is_requirement(line.strip())
             )
-    return list(requirements) + ["Django>=1.8,<2"]
+    return list(requirements)
 
 
 def is_requirement(line):
