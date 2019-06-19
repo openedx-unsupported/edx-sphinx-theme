@@ -22,6 +22,30 @@ def get_version(*file_paths):
         return version_match.group(1)
     raise RuntimeError('Unable to find version string.')
 
+
+def load_requirements(*requirements_paths):
+    """
+    Load all requirements from the specified requirements files.
+    Returns a list of requirement strings.
+    """
+    requirements = set()
+    for path in requirements_paths:
+        with open(path) as reqs:
+            requirements.update(
+                line.split('#')[0].strip() for line in reqs
+                if is_requirement(line.strip())
+            )
+    return list(requirements)
+
+
+def is_requirement(line):
+    """
+    Return True if the requirement line is a package requirement;
+    that is, it is not blank, a comment, a URL, or an included file.
+    """
+    return line and not line.startswith(('-r', '#', '-e', 'git+', '-c'))
+
+
 VERSION = get_version('edx_theme', '__init__.py')
 
 if sys.argv[-1] == 'tag':
@@ -45,7 +69,7 @@ setup(
         'edx_theme',
     ],
     include_package_data=True,
-    install_requires=['six', 'Sphinx'],
+    install_requires=load_requirements('requirements/base.in'),
     license="Apache Software License 2.0",
     zip_safe=False,
     keywords='Sphinx edx',
