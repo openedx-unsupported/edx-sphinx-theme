@@ -10,20 +10,20 @@ attrs==19.1.0             # via packaging, pytest
 babel==2.7.0              # via sphinx
 certifi==2019.6.16        # via requests
 chardet==3.0.4            # via requests
-configparser==3.8.1       # via importlib-metadata
+configparser==4.0.1       # via importlib-metadata
 contextlib2==0.5.5        # via importlib-metadata
 coverage==4.5.4           # via pytest-cov
 docutils==0.15.2          # via sphinx
 funcsigs==1.0.2           # via pytest
 idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
-importlib-metadata==0.20  # via pluggy, pytest
+importlib-metadata==0.21  # via pluggy, pytest
 jinja2==2.10.1            # via sphinx
 markupsafe==1.1.1         # via jinja2
 more-itertools==5.0.0     # via pytest, zipp
 packaging==19.1           # via pytest, sphinx
 pathlib2==2.3.4           # via importlib-metadata, pytest
-pluggy==0.12.0            # via pytest
+pluggy==0.13.0            # via pytest
 py==1.8.0                 # via pytest, pytest-catchlog
 pygments==2.4.2           # via sphinx
 pyparsing==2.4.2          # via packaging
