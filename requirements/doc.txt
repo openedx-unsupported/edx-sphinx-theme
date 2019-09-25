@@ -5,7 +5,6 @@
 #    make upgrade
 #
 alabaster==0.7.12         # via sphinx
-attrs==19.1.0             # via packaging
 babel==2.7.0              # via sphinx
 bleach==3.1.0             # via readme-renderer
 certifi==2019.9.11        # via requests
@@ -16,7 +15,7 @@ idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
 jinja2==2.10.1            # via sphinx
 markupsafe==1.1.1         # via jinja2
-packaging==19.1           # via sphinx
+packaging==19.2           # via sphinx
 pbr==5.4.3                # via stevedore
 pygments==2.4.2           # via readme-renderer, sphinx
 pyparsing==2.4.2          # via packaging
@@ -30,7 +29,7 @@ sphinx==1.8.5
 sphinxcontrib-websupport==1.1.2  # via sphinx
 stevedore==1.31.0         # via doc8
 typing==3.7.4.1           # via sphinx
-urllib3==1.25.3           # via requests
+urllib3==1.25.6           # via requests
 webencodings==0.5.1       # via bleach
 
 # The following packages are considered to be unsafe in a requirements file:
