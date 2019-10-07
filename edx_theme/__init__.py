@@ -8,7 +8,7 @@ import datetime
 import os
 
 import six
-from six.moves.urllib.parse import quote
+from six.moves.urllib.parse import quote  # pylint: disable=wrong-import-order
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
 __version__ = '1.5.0'
