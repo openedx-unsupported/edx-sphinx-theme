@@ -17,7 +17,7 @@ configparser==4.0.2       # via importlib-metadata, pydocstyle, pylint
 contextlib2==0.6.0.post1  # via importlib-metadata
 distlib==0.2.9.post0      # via caniusepython3
 docutils==0.15.2          # via readme-renderer
-edx-lint==1.4.0
+edx-lint==1.4.1
 enum34==1.1.6             # via astroid
 filelock==3.0.12          # via tox
 futures==3.3.0 ; python_version == "2.7"  # via caniusepython3, isort
@@ -54,7 +54,7 @@ tox==3.14.0
 tqdm==4.36.1              # via twine
 twine==1.15.0
 urllib3==1.25.6           # via requests
-virtualenv==16.7.5        # via tox
+virtualenv==16.7.7        # via tox
 webencodings==0.5.1       # via bleach
 wheel==0.33.6
 wrapt==1.11.2             # via astroid
