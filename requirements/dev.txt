@@ -50,7 +50,7 @@ six==1.13.0               # via astroid, bleach, edx-lint, more-itertools, packa
 snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.0              # via tox
 tox-battery==0.5.1
-tox==3.14.0
+tox==3.14.1
 tqdm==4.38.0              # via twine
 twine==1.15.0
 urllib3==1.25.7           # via requests
