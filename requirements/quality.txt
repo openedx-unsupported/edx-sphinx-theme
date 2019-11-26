@@ -37,4 +37,4 @@ urllib3==1.25.7           # via requests
 wrapt==1.11.2             # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.6.0        # via caniusepython3
+# setuptools
