@@ -17,7 +17,7 @@ docutils==0.15.2          # via sphinx
 funcsigs==1.0.2           # via pytest
 idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
-importlib-metadata==1.1.0  # via pluggy, pytest
+importlib-metadata==1.2.0  # via pluggy, pytest
 jinja2==2.10.3            # via sphinx
 markupsafe==1.1.1         # via jinja2
 more-itertools==5.0.0     # via pytest, zipp
@@ -29,7 +29,7 @@ pygments==2.5.2           # via sphinx
 pyparsing==2.4.5          # via packaging
 pytest-catchlog==1.2.2
 pytest-cov==2.8.1
-pytest==4.6.6             # via pytest-catchlog, pytest-cov
+pytest==4.6.7             # via pytest-catchlog, pytest-cov
 pytz==2019.3              # via babel
 requests==2.22.0          # via sphinx
 scandir==1.10.0           # via pathlib2
