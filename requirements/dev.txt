@@ -51,7 +51,7 @@ snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.0              # via tox
 tox-battery==0.5.1
 tox==3.14.2
-tqdm==4.40.2              # via twine
+tqdm==4.41.0              # via twine
 twine==1.15.0
 urllib3==1.25.7           # via requests
 virtualenv==16.7.9        # via tox
