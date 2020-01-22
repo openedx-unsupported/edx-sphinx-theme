@@ -31,9 +31,9 @@ pylint==1.9.5             # via edx-lint, pylint-celery, pylint-django, pylint-p
 pyparsing==2.4.6          # via packaging
 requests==2.22.0          # via caniusepython3
 singledispatch==3.4.0.3   # via astroid, pylint
-six==1.13.0               # via astroid, edx-lint, packaging, pydocstyle, pylint, singledispatch
+six==1.14.0               # via astroid, edx-lint, packaging, pydocstyle, pylint, singledispatch
 snowballstemmer==2.0.0    # via pydocstyle
-urllib3==1.25.7           # via requests
+urllib3==1.25.8           # via requests
 wrapt==1.11.2             # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
