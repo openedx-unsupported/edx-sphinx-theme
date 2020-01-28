@@ -21,7 +21,7 @@ idna==2.8                 # via requests
 isort==4.3.21
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
-packaging==20.0           # via caniusepython3
+packaging==20.1           # via caniusepython3
 pycodestyle==2.5.0
 pydocstyle==3.0.0
 pylint-celery==0.3        # via edx-lint
