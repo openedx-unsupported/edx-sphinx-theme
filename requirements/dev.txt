@@ -22,13 +22,13 @@ enum34==1.1.6             # via astroid
 filelock==3.0.12          # via tox
 futures==3.3.0 ; python_version == "2.7"  # via caniusepython3, isort
 idna==2.8                 # via requests
-importlib-metadata==1.4.0  # via pluggy, tox
+importlib-metadata==1.5.0  # via pluggy, tox
 isort==4.3.21
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
 packaging==20.1           # via caniusepython3, tox
 pathlib2==2.3.5           # via importlib-metadata
-pip-tools==4.4.0
+pip-tools==4.4.1
 pkginfo==1.5.0.1          # via twine
 pluggy==0.13.1            # via tox
 py==1.8.1                 # via tox
@@ -50,12 +50,12 @@ snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.0              # via tox
 tox-battery==0.5.2
 tox==3.14.3
-tqdm==4.42.0              # via twine
+tqdm==4.42.1              # via twine
 twine==1.15.0
 urllib3==1.25.8           # via requests
 virtualenv==16.7.9        # via tox
 webencodings==0.5.1       # via bleach
-wheel==0.34.1
+wheel==0.34.2
 wrapt==1.11.2             # via astroid
 zipp==1.1.0               # via importlib-metadata
 
