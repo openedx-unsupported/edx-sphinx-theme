@@ -40,7 +40,7 @@ sphinxcontrib-websupport==1.1.2  # via sphinx
 typing==3.7.4.1           # via sphinx
 urllib3==1.25.8           # via requests
 wcwidth==0.1.8            # via pytest
-zipp==1.1.0               # via importlib-metadata
+zipp==1.2.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
