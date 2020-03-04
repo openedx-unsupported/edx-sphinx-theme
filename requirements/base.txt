@@ -18,9 +18,9 @@ pygments==2.5.2           # via sphinx
 pyparsing==2.4.6          # via packaging
 pytz==2019.3              # via babel
 requests==2.23.0          # via sphinx
-six==1.14.0               # via -r requirements/base.in (line 5), packaging, sphinx
+six==1.14.0               # via -r requirements/base.in, packaging, sphinx
 snowballstemmer==2.0.0    # via sphinx
-sphinx==1.8.5             # via -r requirements/base.in (line 6)
+sphinx==1.8.5             # via -r requirements/base.in
 sphinxcontrib-websupport==1.1.2  # via sphinx
 typing==3.7.4.1           # via sphinx
 urllib3==1.25.8           # via requests
