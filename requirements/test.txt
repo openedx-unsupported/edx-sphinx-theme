@@ -17,7 +17,7 @@ docutils==0.16            # via sphinx
 funcsigs==1.0.2           # via pytest
 idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
-importlib-metadata==1.5.0  # via pluggy, pytest
+importlib-metadata==1.6.0  # via pluggy, pytest
 jinja2==2.11.1            # via sphinx
 markupsafe==1.1.1         # via jinja2
 more-itertools==5.0.0     # via pytest
@@ -39,7 +39,7 @@ sphinx==1.8.5             # via -r requirements/base.in
 sphinxcontrib-websupport==1.1.2  # via sphinx
 typing==3.7.4.1           # via sphinx
 urllib3==1.25.8           # via requests
-wcwidth==0.1.8            # via pytest
+wcwidth==0.1.9            # via pytest
 zipp==1.2.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:

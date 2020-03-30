@@ -8,7 +8,7 @@ appdirs==1.4.3            # via virtualenv
 argparse==1.4.0           # via caniusepython3
 astroid==1.6.6            # via pylint, pylint-celery
 backports.functools-lru-cache==1.6.1  # via astroid, caniusepython3, isort, pylint
-bleach==3.1.3             # via readme-renderer
+bleach==3.1.4             # via readme-renderer
 caniusepython3==7.2.0     # via -r requirements/quality.in
 certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
@@ -23,8 +23,8 @@ enum34==1.1.10            # via astroid
 filelock==3.0.12          # via tox, virtualenv
 futures==3.3.0 ; python_version == "2.7"  # via -c requirements/constraints.txt, caniusepython3, isort
 idna==2.9                 # via requests
-importlib-metadata==1.5.0  # via importlib-resources, pluggy, tox, virtualenv
-importlib-resources==1.3.1  # via virtualenv
+importlib-metadata==1.6.0  # via importlib-resources, pluggy, tox, virtualenv
+importlib-resources==1.4.0  # via virtualenv
 isort==4.3.21             # via -r requirements/quality.in, pylint
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
@@ -51,12 +51,12 @@ six==1.14.0               # via astroid, bleach, edx-lint, packaging, pathlib2, 
 snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.0              # via tox
 tox-battery==0.5.2        # via -r requirements/dev.in
-tox==3.14.5               # via -r requirements/dev.in, tox-battery
-tqdm==4.43.0              # via twine
+tox==3.14.6               # via -r requirements/dev.in, tox-battery
+tqdm==4.44.0              # via twine
 twine==1.15.0             # via -r requirements/dev.in
 typing==3.7.4.1           # via importlib-resources
 urllib3==1.25.8           # via requests
-virtualenv==20.0.10       # via tox
+virtualenv==20.0.15       # via tox
 webencodings==0.5.1       # via bleach
 wheel==0.34.2             # via -r requirements/dev.in
 wrapt==1.12.1             # via astroid
