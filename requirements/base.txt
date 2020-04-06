@@ -6,7 +6,7 @@
 #
 alabaster==0.7.12         # via sphinx
 babel==2.8.0              # via sphinx
-certifi==2019.11.28       # via requests
+certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
 docutils==0.16            # via sphinx
 idna==2.9                 # via requests
@@ -15,7 +15,7 @@ jinja2==2.11.1            # via sphinx
 markupsafe==1.1.1         # via jinja2
 packaging==20.3           # via sphinx
 pygments==2.5.2           # via sphinx
-pyparsing==2.4.6          # via packaging
+pyparsing==2.4.7          # via packaging
 pytz==2019.3              # via babel
 requests==2.23.0          # via sphinx
 six==1.14.0               # via -r requirements/base.in, packaging, sphinx
