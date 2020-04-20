@@ -13,7 +13,7 @@ doc8==0.8.0               # via -r requirements/doc.in
 docutils==0.16            # via doc8, readme-renderer, restructuredtext-lint, sphinx
 idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
-jinja2==2.11.1            # via sphinx
+jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
 packaging==20.3           # via sphinx
 pbr==5.4.5                # via stevedore
@@ -29,7 +29,7 @@ sphinx==1.8.5             # via -r requirements/base.in
 sphinxcontrib-websupport==1.1.2  # via sphinx
 stevedore==1.32.0         # via doc8
 typing==3.7.4.1           # via sphinx
-urllib3==1.25.8           # via requests
+urllib3==1.25.9           # via requests
 webencodings==0.5.1       # via bleach
 
 # The following packages are considered to be unsafe in a requirements file:

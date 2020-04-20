@@ -18,7 +18,7 @@ funcsigs==1.0.2           # via pytest
 idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
 importlib-metadata==1.6.0  # via pluggy, pytest
-jinja2==2.11.1            # via sphinx
+jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
 more-itertools==5.0.0     # via pytest
 packaging==20.3           # via pytest, sphinx
@@ -38,7 +38,7 @@ snowballstemmer==2.0.0    # via sphinx
 sphinx==1.8.5             # via -r requirements/base.in
 sphinxcontrib-websupport==1.1.2  # via sphinx
 typing==3.7.4.1           # via sphinx
-urllib3==1.25.8           # via requests
+urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via pytest
 zipp==1.2.0               # via importlib-metadata
 
