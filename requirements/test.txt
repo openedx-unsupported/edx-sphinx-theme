@@ -29,7 +29,7 @@ pygments==2.5.2           # via sphinx
 pyparsing==2.4.7          # via packaging
 pytest-catchlog==1.2.2    # via -r requirements/test.in
 pytest-cov==2.8.1         # via -r requirements/test.in
-pytest==4.6.9             # via pytest-catchlog, pytest-cov
+pytest==4.6.10            # via pytest-catchlog, pytest-cov
 pytz==2020.1              # via babel
 requests==2.23.0          # via sphinx
 scandir==1.10.0           # via pathlib2
