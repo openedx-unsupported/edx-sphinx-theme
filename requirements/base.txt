@@ -13,12 +13,12 @@ idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
-packaging==20.3           # via sphinx
+packaging==20.4           # via sphinx
 pygments==2.6.1           # via sphinx
 pyparsing==2.4.7          # via packaging
 pytz==2020.1              # via babel
 requests==2.23.0          # via sphinx
-six==1.14.0               # via -r requirements/base.in, packaging, sphinx
+six==1.15.0               # via -r requirements/base.in, packaging, sphinx
 snowballstemmer==2.0.0    # via sphinx
 sphinx==1.8.5             # via -c requirements/constraints.txt, -r requirements/base.in
 sphinxcontrib-websupport==1.2.2  # via sphinx
