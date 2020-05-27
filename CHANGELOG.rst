@@ -13,6 +13,7 @@ Change Log
 
 Unreleased
 ~~~~~~~~~~
+* Removed ``caniusepython3``.
 
 [1.4.0] - 2018-12-04
 ~~~~~~~~~~~~~~~~~~~~
