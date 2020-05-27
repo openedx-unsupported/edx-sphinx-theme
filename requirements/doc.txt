@@ -15,7 +15,7 @@ idna==2.9                 # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
-packaging==20.3           # via bleach, sphinx
+packaging==20.4           # via bleach, sphinx
 pbr==5.4.5                # via stevedore
 pygments==2.6.1           # via readme-renderer, sphinx
 pyparsing==2.4.7          # via packaging
@@ -23,7 +23,7 @@ pytz==2020.1              # via babel
 readme-renderer==26.0     # via -r requirements/doc.in
 requests==2.23.0          # via sphinx
 restructuredtext-lint==1.3.0  # via doc8
-six==1.14.0               # via -r requirements/base.in, bleach, doc8, packaging, readme-renderer, sphinx, stevedore
+six==1.15.0               # via -r requirements/base.in, bleach, doc8, packaging, readme-renderer, sphinx, stevedore
 snowballstemmer==2.0.0    # via sphinx
 sphinx==1.8.5             # via -c requirements/constraints.txt, -r requirements/base.in
 sphinxcontrib-websupport==1.2.2  # via sphinx
