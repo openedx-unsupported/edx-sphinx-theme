@@ -9,7 +9,7 @@ attrs==19.3.0             # via pytest
 babel==2.8.0              # via sphinx
 certifi==2020.6.20        # via requests
 chardet==3.0.4            # via requests
-coverage==5.2             # via pytest-cov
+coverage==5.2.1           # via pytest-cov
 docutils==0.16            # via sphinx
 idna==2.10                # via requests
 imagesize==1.2.0          # via sphinx
@@ -32,7 +32,7 @@ six==1.15.0               # via -r requirements/base.in, packaging, pathlib2, sp
 snowballstemmer==2.0.0    # via sphinx
 sphinx==1.8.5             # via -c requirements/constraints.txt, -r requirements/base.in
 sphinxcontrib-websupport==1.2.3  # via sphinx
-urllib3==1.25.9           # via requests
+urllib3==1.25.10          # via requests
 wcwidth==0.2.5            # via pytest
 zipp==1.2.0               # via importlib-metadata
 
