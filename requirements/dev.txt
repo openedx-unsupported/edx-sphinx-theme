@@ -22,7 +22,7 @@ isort==4.3.21             # via -r requirements/quality.in, pylint
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
 packaging==20.4           # via bleach, tox
-pip-tools==5.3.0          # via -r requirements/dev.in
+pip-tools==5.3.1          # via -r requirements/dev.in
 pkginfo==1.5.0.1          # via twine
 pluggy==0.13.1            # via tox
 py==1.9.0                 # via tox
@@ -41,12 +41,12 @@ six==1.15.0               # via astroid, bleach, edx-lint, packaging, pip-tools,
 snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.1              # via tox
 tox-battery==0.6.1        # via -r requirements/dev.in
-tox==3.18.0               # via -r requirements/dev.in, tox-battery
-tqdm==4.48.0              # via twine
+tox==3.18.1               # via -r requirements/dev.in, tox-battery
+tqdm==4.48.1              # via twine
 twine==1.15.0             # via -r requirements/dev.in
 typed-ast==1.4.1          # via astroid
 urllib3==1.25.10          # via requests
-virtualenv==20.0.28       # via tox
+virtualenv==20.0.29       # via tox
 webencodings==0.5.1       # via bleach
 wheel==0.34.2             # via -r requirements/dev.in
 wrapt==1.11.2             # via astroid
