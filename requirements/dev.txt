@@ -27,7 +27,7 @@ pkginfo==1.5.0.1          # via twine
 pluggy==0.13.1            # via tox
 py==1.9.0                 # via tox
 pycodestyle==2.6.0        # via -r requirements/quality.in
-pydocstyle==5.1.0         # via -r requirements/quality.in
+pydocstyle==5.1.1         # via -r requirements/quality.in
 pygments==2.6.1           # via readme-renderer
 pylint-celery==0.3        # via edx-lint
 pylint-django==2.0.11     # via edx-lint
