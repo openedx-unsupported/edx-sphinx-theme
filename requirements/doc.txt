@@ -16,7 +16,7 @@ imagesize==1.2.0          # via sphinx
 jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
 packaging==20.4           # via bleach, sphinx
-pbr==5.4.5                # via stevedore
+pbr==5.5.0                # via stevedore
 pygments==2.6.1           # via doc8, readme-renderer, sphinx
 pyparsing==2.4.7          # via packaging
 pytz==2020.1              # via babel
