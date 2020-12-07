@@ -7,13 +7,13 @@
 alabaster==0.7.12         # via sphinx
 attrs==20.3.0             # via pytest
 babel==2.9.0              # via sphinx
-certifi==2020.11.8        # via requests
+certifi==2020.12.5        # via requests
 chardet==3.0.4            # via requests
 coverage==5.3             # via pytest-cov
 docutils==0.16            # via sphinx
 idna==2.10                # via requests
 imagesize==1.2.0          # via sphinx
-importlib-metadata==2.1.0  # via pluggy, pytest
+importlib-metadata==2.1.1  # via pluggy, pytest
 iniconfig==1.1.1          # via pytest
 jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
@@ -21,7 +21,7 @@ packaging==20.7           # via pytest, sphinx
 pathlib2==2.3.5           # via pytest
 pluggy==0.13.1            # via pytest
 py==1.9.0                 # via pytest, pytest-catchlog
-pygments==2.7.2           # via sphinx
+pygments==2.7.3           # via sphinx
 pyparsing==2.4.7          # via packaging
 pytest-catchlog==1.2.2    # via -r requirements/test.in
 pytest-cov==2.10.1        # via -r requirements/test.in
