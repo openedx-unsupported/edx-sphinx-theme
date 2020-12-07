@@ -7,7 +7,7 @@
 alabaster==0.7.12         # via sphinx
 babel==2.9.0              # via sphinx
 bleach==3.2.1             # via readme-renderer
-certifi==2020.11.8        # via requests
+certifi==2020.12.5        # via requests
 chardet==3.0.4            # via doc8, requests
 doc8==0.8.1               # via -r requirements/doc.in
 docutils==0.16            # via doc8, readme-renderer, restructuredtext-lint, sphinx
@@ -17,7 +17,7 @@ jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
 packaging==20.7           # via bleach, sphinx
 pbr==5.5.1                # via stevedore
-pygments==2.7.2           # via doc8, readme-renderer, sphinx
+pygments==2.7.3           # via doc8, readme-renderer, sphinx
 pyparsing==2.4.7          # via packaging
 pytz==2020.4              # via babel
 readme-renderer==28.0     # via -r requirements/doc.in
