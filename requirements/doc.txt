@@ -15,7 +15,7 @@ idna==2.10                # via requests
 imagesize==1.2.0          # via sphinx
 jinja2==2.11.2            # via sphinx
 markupsafe==1.1.1         # via jinja2
-packaging==20.7           # via bleach, sphinx
+packaging==20.8           # via bleach, sphinx
 pbr==5.5.1                # via stevedore
 pygments==2.7.3           # via doc8, readme-renderer, sphinx
 pyparsing==2.4.7          # via packaging
