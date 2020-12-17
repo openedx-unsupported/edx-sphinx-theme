@@ -5,8 +5,8 @@ edx-sphinx-theme
     :target: https://pypi.python.org/pypi/edx-sphinx-theme/
     :alt: PyPI
 
-.. image:: https://travis-ci.org/edx/edx-sphinx-theme.svg?branch=master
-    :target: https://travis-ci.org/edx/edx-sphinx-theme
+.. image:: https://travis-ci.com/edx/edx-sphinx-theme.svg?branch=master
+    :target: https://travis-ci.com/edx/edx-sphinx-theme
     :alt: Travis
 
 .. image:: http://codecov.io/github/edx/edx-sphinx-theme/coverage.svg?branch=master
