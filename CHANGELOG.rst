@@ -11,9 +11,10 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
-Unreleased
-~~~~~~~~~~
-* Removed ``caniusepython3``.
+1.5.0 - 2020-12-17
+~~~~~~~~~~~~~~~~~~
+
+* Updated the edX logo.
 
 [1.4.0] - 2018-12-04
 ~~~~~~~~~~~~~~~~~~~~
