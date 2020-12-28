@@ -26,7 +26,7 @@ pyparsing==2.4.7          # via packaging
 pytest-catchlog==1.2.2    # via -r requirements/test.in
 pytest-cov==2.10.1        # via -r requirements/test.in
 pytest==6.1.2             # via pytest-catchlog, pytest-cov
-pytz==2020.4              # via babel
+pytz==2020.5              # via babel
 requests==2.25.1          # via sphinx
 six==1.15.0               # via -r requirements/base.in, pathlib2, sphinx
 snowballstemmer==2.0.0    # via sphinx
