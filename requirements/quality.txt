@@ -20,5 +20,5 @@ pylint==2.6.0             # via edx-lint, pylint-celery, pylint-django, pylint-p
 six==1.15.0               # via astroid, edx-lint
 snowballstemmer==2.0.0    # via pydocstyle
 toml==0.10.2              # via pylint
-typed-ast==1.4.1          # via astroid
+typed-ast==1.4.2          # via astroid
 wrapt==1.12.1             # via astroid
