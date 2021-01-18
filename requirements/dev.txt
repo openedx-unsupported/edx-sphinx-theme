@@ -58,7 +58,7 @@ packaging==20.8
     #   tox
 pip-tools==5.5.0
     # via -r requirements/dev.in
-pkginfo==1.6.1
+pkginfo==1.7.0
     # via twine
 pluggy==0.13.1
     # via tox
@@ -68,7 +68,7 @@ pycodestyle==2.6.0
     # via -r requirements/quality.in
 pydocstyle==5.1.1
     # via -r requirements/quality.in
-pygments==2.7.3
+pygments==2.7.4
     # via readme-renderer
 pylint-celery==0.3
     # via edx-lint
@@ -110,7 +110,7 @@ toml==0.10.2
     #   tox
 tox-battery==0.6.1
     # via -r requirements/dev.in
-tox==3.21.0
+tox==3.21.1
     # via
     #   -r requirements/dev.in
     #   tox-battery
@@ -122,7 +122,7 @@ typed-ast==1.4.2
     # via astroid
 urllib3==1.26.2
     # via requests
-virtualenv==20.3.0
+virtualenv==20.3.1
     # via tox
 webencodings==0.5.1
     # via bleach
