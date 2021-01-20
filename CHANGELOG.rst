@@ -11,15 +11,20 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
-1.5.1 - 2020-01-19
-~~~~~~~~~~~~~~~~~~
+[1.6.1] - 2020-01-19
+~~~~~~~~~~~~~~~~~~~~
 
 * Fix the navigation section headers so that they are visible.
 
-1.5.0 - 2020-12-17
-~~~~~~~~~~~~~~~~~~
+[1.6.0] - 2020-12-17
+~~~~~~~~~~~~~~~~~~~~
 
 * Updated the edX logo.
+
+[1.5.0] -2019-06-19
+~~~~~~~~~~~~~~~~~~~
+
+* Requirements Update
 
 [1.4.0] - 2018-12-04
 ~~~~~~~~~~~~~~~~~~~~
