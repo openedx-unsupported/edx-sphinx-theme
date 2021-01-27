@@ -1,5 +1,5 @@
-edx_theme package
-=================
+edx\_theme package
+==================
 
 Module contents
 ---------------

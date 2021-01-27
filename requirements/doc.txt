@@ -8,7 +8,7 @@ alabaster==0.7.12
     # via sphinx
 babel==2.9.0
     # via sphinx
-bleach==3.2.1
+bleach==3.2.3
     # via readme-renderer
 certifi==2020.12.5
     # via requests
@@ -60,8 +60,7 @@ six==1.15.0
     #   doc8
     #   readme-renderer
     #   sphinx
-    #   stevedore
-snowballstemmer==2.0.0
+snowballstemmer==2.1.0
     # via sphinx
 sphinx==1.8.5
     # via
@@ -71,9 +70,9 @@ sphinxcontrib-serializinghtml==1.1.4
     # via sphinxcontrib-websupport
 sphinxcontrib-websupport==1.2.4
     # via sphinx
-stevedore==1.32.0
+stevedore==3.3.0
     # via doc8
-urllib3==1.26.2
+urllib3==1.26.3
     # via requests
 webencodings==0.5.1
     # via bleach

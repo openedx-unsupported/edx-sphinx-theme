@@ -36,7 +36,7 @@ six==1.15.0
     # via
     #   -r requirements/base.in
     #   sphinx
-snowballstemmer==2.0.0
+snowballstemmer==2.1.0
     # via sphinx
 sphinx==1.8.5
     # via
@@ -46,7 +46,7 @@ sphinxcontrib-serializinghtml==1.1.4
     # via sphinxcontrib-websupport
 sphinxcontrib-websupport==1.2.4
     # via sphinx
-urllib3==1.26.2
+urllib3==1.26.3
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
