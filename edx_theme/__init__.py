@@ -11,7 +11,7 @@ import six
 from six.moves.urllib.parse import quote  # pylint: disable=wrong-import-order
 
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '1.6.1'
+__version__ = '2.0.0'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'

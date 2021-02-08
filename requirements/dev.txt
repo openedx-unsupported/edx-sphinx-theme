@@ -10,7 +10,7 @@ astroid==2.4.2
     # via
     #   pylint
     #   pylint-celery
-bleach==3.2.1
+bleach==3.2.3
     # via readme-renderer
 certifi==2020.12.5
     # via requests
@@ -21,13 +21,23 @@ click-log==0.3.2
 click==7.1.2
     # via
     #   click-log
+    #   code-annotations
     #   edx-lint
     #   pip-tools
+code-annotations==1.0.2
+    # via edx-lint
+colorama==0.4.4
+    # via twine
 distlib==0.3.1
     # via virtualenv
+django==2.2.17
+    # via
+    #   -c requirements/constraints.txt
+    #   code-annotations
+    #   edx-lint
 docutils==0.16
     # via readme-renderer
-edx-lint==1.6
+edx-lint==3.0.2
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
@@ -37,25 +47,26 @@ filelock==3.0.12
     #   virtualenv
 idna==2.10
     # via requests
-importlib-metadata==2.1.1
-    # via
-    #   pluggy
-    #   tox
-    #   virtualenv
-importlib-resources==3.2.1
-    # via virtualenv
-isort==4.3.21
+isort==5.7.0
     # via
     #   -r requirements/quality.in
     #   pylint
+jinja2==2.11.3
+    # via code-annotations
+keyring==22.0.1
+    # via twine
 lazy-object-proxy==1.4.3
     # via astroid
+markupsafe==1.1.1
+    # via jinja2
 mccabe==0.6.1
     # via pylint
-packaging==20.8
+packaging==20.9
     # via
     #   bleach
     #   tox
+pbr==5.5.1
+    # via stevedore
 pip-tools==5.5.0
     # via -r requirements/dev.in
 pkginfo==1.7.0
@@ -72,7 +83,7 @@ pygments==2.7.4
     # via readme-renderer
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.3.0
+pylint-django==2.4.2
     # via edx-lint
 pylint-plugin-utils==0.6
     # via
@@ -86,6 +97,12 @@ pylint==2.6.0
     #   pylint-plugin-utils
 pyparsing==2.4.7
     # via packaging
+python-slugify==4.0.1
+    # via code-annotations
+pytz==2021.1
+    # via django
+pyyaml==5.4.1
+    # via code-annotations
 readme-renderer==28.0
     # via twine
 requests-toolbelt==0.9.1
@@ -94,6 +111,8 @@ requests==2.25.1
     # via
     #   requests-toolbelt
     #   twine
+rfc3986==1.4.0
+    # via twine
 six==1.15.0
     # via
     #   astroid
@@ -102,27 +121,31 @@ six==1.15.0
     #   readme-renderer
     #   tox
     #   virtualenv
-snowballstemmer==2.0.0
+snowballstemmer==2.1.0
     # via pydocstyle
+sqlparse==0.4.1
+    # via django
+stevedore==3.3.0
+    # via code-annotations
+text-unidecode==1.3
+    # via python-slugify
 toml==0.10.2
     # via
     #   pylint
     #   tox
 tox-battery==0.6.1
     # via -r requirements/dev.in
-tox==3.21.1
+tox==3.21.3
     # via
     #   -r requirements/dev.in
     #   tox-battery
 tqdm==4.56.0
     # via twine
-twine==1.15.0
+twine==3.3.0
     # via -r requirements/dev.in
-typed-ast==1.4.2
-    # via astroid
-urllib3==1.26.2
+urllib3==1.26.3
     # via requests
-virtualenv==20.3.1
+virtualenv==20.4.2
     # via tox
 webencodings==0.5.1
     # via bleach
@@ -130,10 +153,6 @@ wheel==0.36.2
     # via -r requirements/dev.in
 wrapt==1.12.1
     # via astroid
-zipp==1.2.0
-    # via
-    #   importlib-metadata
-    #   importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

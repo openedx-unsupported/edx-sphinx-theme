@@ -10,3 +10,6 @@
 
 # Required to avoid ImportError https://github.com/sphinx-contrib/sphinxcontrib-versioning/issues/66
 sphinx<=1.8.5
+
+# Stay on LTS release
+Django<2.3

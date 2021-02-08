@@ -11,6 +11,11 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[2.0.0] - 2021-01-28
+~~~~~~~~~~~~~~~~~~~~
+
+* Dropped Python 3.5 Support
+
 [1.6.1] - 2020-01-19
 ~~~~~~~~~~~~~~~~~~~~
 
