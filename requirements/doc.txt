@@ -38,7 +38,7 @@ packaging==20.9
     #   sphinx
 pbr==5.5.1
     # via stevedore
-pygments==2.8.0
+pygments==2.8.1
     # via
     #   doc8
     #   readme-renderer
