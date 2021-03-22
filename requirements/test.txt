@@ -70,7 +70,7 @@ sphinxcontrib-websupport==1.2.4
     # via sphinx
 toml==0.10.2
     # via pytest
-urllib3==1.26.3
+urllib3==1.26.4
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
