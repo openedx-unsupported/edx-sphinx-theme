@@ -11,6 +11,13 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[2.1.0] - 2021-04-01
+~~~~~~~~~~~~~~~~~~~~
+
+* Adding "Edit on Github" button to breadcrums.
+
+  This should make it easier for viewers to easily correct or update bad documentation.
+
 [2.0.0] - 2021-01-28
 ~~~~~~~~~~~~~~~~~~~~
 

@@ -6,6 +6,14 @@
       <a href="{{ help_url }}" target="_blank">{{ help_link_text|default('Get Help', true) }}</a> or
     {%- endif -%}
     <a href="{{ feedback_form_url }}" target="_blank">{{ feedback_form_link_text|default('Give Doc Feedback', true) }}</a>
+    {%- if display_github %}
+        {%- if check_meta and 'github_url' in meta %}
+        <!-- User defined GitHub URL -->
+        <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+        {%- else %}
+        <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode or "blob" }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ page_source_suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+        {%- endif %}
+    {%- endif %}
   </li>
 </ul>
 <hr/>
