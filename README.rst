@@ -52,6 +52,8 @@ To use edx-sphinx-theme for a repository's documentation:
 * Use the ``AUTHOR`` constant where appropriate in conf.py
   (this default is only provided as a convenience; the repository is free
   to use another value if appropriate).
+* To add an "Edit on Github" link to every page, add a dict called ``html_context``,
+  as detailed in the following example.
 
 For example:
 
@@ -73,6 +75,14 @@ For example:
         (master_doc, 'edx-sphinx-theme.tex', 'edx-sphinx-theme Documentation',
          author, 'manual'),
     ]
+
+    html_context = {
+        "display_github": True, # Integrate GitHub
+        "github_user": "edx", # Username
+        "github_repo": 'edx-sphinx-theme', # Repo name
+        "github_version": "master", # Version
+        "conf_py_path": "/docs/", # Path in the checkout to the docs root
+    }
 
 Read the Docs Configuration
 ---------------------------
