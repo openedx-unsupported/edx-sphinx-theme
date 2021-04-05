@@ -18,7 +18,7 @@ chardet==4.0.0
     #   requests
 doc8==0.8.1
     # via -r requirements/doc.in
-docutils==0.16
+docutils==0.17
     # via
     #   doc8
     #   readme-renderer
