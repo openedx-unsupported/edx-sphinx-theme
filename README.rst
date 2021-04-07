@@ -42,18 +42,13 @@ This theme makes the following changes to the default Sphinx output:
 
 To use edx-sphinx-theme for a repository's documentation:
 
-* ``pip install edx-sphinx-theme`` or equivalent (add ``edx-sphinx-theme``
-  to any appropriate requirements files)
-* Add ``edx_theme`` to the ``extensions`` list in conf.py (it adds the
-  feedback form URL to the rendering context for each page).
-* Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the
-  theme can be located and loaded.
+* ``pip install edx-sphinx-theme`` or equivalent (add ``edx-sphinx-theme`` to any appropriate requirements files)
+* Add ``edx_theme`` to the ``extensions`` list in conf.py (it adds the feedback form URL to the rendering context for each page).
+* Update the ``html_theme`` and ``html_theme_path`` values in conf.py so the theme can be located and loaded.
 * Set ``html_favicon`` to the path of the favicon.ico file in the theme.
 * Use the ``AUTHOR`` constant where appropriate in conf.py
-  (this default is only provided as a convenience; the repository is free
-  to use another value if appropriate).
-* To add an "Edit on Github" link to every page, add a dict called ``html_context``,
-  as detailed in the following example.
+  (This default is only provided as a convenience. The repository is free to use another value if appropriate).
+* To add an "Edit on Github" link to every page, add a dict called ``html_context``, as detailed in the following example.
 
 For example:
 
