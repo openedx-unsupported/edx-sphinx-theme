@@ -17,16 +17,16 @@ click==7.1.2
     #   edx-lint
 code-annotations==1.1.1
     # via edx-lint
-django==2.2.19
+django==2.2.20
     # via
-    #   -c requirements/constraints.txt
+    #   -c constraints.txt
     #   code-annotations
     #   edx-lint
 edx-lint==5.0.0
-    # via -r requirements/quality.in
+    # via -r quality.in
 isort==5.8.0
     # via
-    #   -r requirements/quality.in
+    #   -r quality.in
     #   pylint
 jinja2==2.11.3
     # via code-annotations
@@ -39,9 +39,9 @@ mccabe==0.6.1
 pbr==5.5.1
     # via stevedore
 pycodestyle==2.7.0
-    # via -r requirements/quality.in
+    # via -r quality.in
 pydocstyle==6.0.0
-    # via -r requirements/quality.in
+    # via -r quality.in
 pylint-celery==0.3
     # via edx-lint
 pylint-django==2.4.2

@@ -34,17 +34,15 @@ cryptography==3.4.7
     # via secretstorage
 distlib==0.3.1
     # via virtualenv
-django==2.2.19
+django==2.2.20
     # via
-    #   -c requirements/constraints.txt
+    #   -c constraints.txt
     #   code-annotations
     #   edx-lint
 docutils==0.17
     # via readme-renderer
 edx-lint==5.0.0
-    # via
-    #   -r requirements/dev.in
-    #   -r requirements/quality.in
+    # via -r dev.in
 filelock==3.0.12
     # via
     #   tox
@@ -56,9 +54,7 @@ importlib-metadata==3.10.0
     #   keyring
     #   twine
 isort==5.8.0
-    # via
-    #   -r requirements/quality.in
-    #   pylint
+    # via pylint
 jeepney==0.6.0
     # via
     #   keyring
@@ -82,19 +78,15 @@ pbr==5.5.1
 pep517==0.10.0
     # via pip-tools
 pip-tools==6.0.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 pkginfo==1.7.0
     # via twine
 pluggy==0.13.1
     # via tox
 py==1.10.0
     # via tox
-pycodestyle==2.7.0
-    # via -r requirements/quality.in
 pycparser==2.20
     # via cffi
-pydocstyle==6.0.0
-    # via -r requirements/quality.in
 pygments==2.8.1
     # via readme-renderer
 pylint-celery==0.3
@@ -138,8 +130,6 @@ six==1.15.0
     #   readme-renderer
     #   tox
     #   virtualenv
-snowballstemmer==2.1.0
-    # via pydocstyle
 sqlparse==0.4.1
     # via django
 stevedore==3.3.0
@@ -152,15 +142,15 @@ toml==0.10.2
     #   pylint
     #   tox
 tox-battery==0.6.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 tox==3.23.0
     # via
-    #   -r requirements/dev.in
+    #   -r dev.in
     #   tox-battery
 tqdm==4.59.0
     # via twine
 twine==3.4.1
-    # via -r requirements/dev.in
+    # via -r dev.in
 urllib3==1.26.4
     # via requests
 virtualenv==20.4.3
@@ -168,7 +158,7 @@ virtualenv==20.4.3
 webencodings==0.5.1
     # via bleach
 wheel==0.36.2
-    # via -r requirements/dev.in
+    # via -r dev.in
 wrapt==1.12.1
     # via astroid
 zipp==3.4.1
