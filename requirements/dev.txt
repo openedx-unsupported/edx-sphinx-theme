@@ -6,7 +6,7 @@
 #
 appdirs==1.4.4
     # via virtualenv
-astroid==2.5.2
+astroid==2.5.3
     # via
     #   pylint
     #   pylint-celery
@@ -34,7 +34,7 @@ cryptography==3.4.7
     # via secretstorage
 distlib==0.3.1
     # via virtualenv
-django==2.2.19
+django==2.2.20
     # via
     #   -c requirements/constraints.txt
     #   code-annotations
@@ -99,7 +99,7 @@ pygments==2.8.1
     # via readme-renderer
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.4.2
+pylint-django==2.4.3
     # via edx-lint
 pylint-plugin-utils==0.6
     # via
@@ -157,7 +157,7 @@ tox==3.23.0
     # via
     #   -r requirements/dev.in
     #   tox-battery
-tqdm==4.59.0
+tqdm==4.60.0
     # via twine
 twine==3.4.1
     # via -r requirements/dev.in
