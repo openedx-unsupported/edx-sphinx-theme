@@ -16,7 +16,7 @@ chardet==4.0.0
     # via requests
 coverage==5.5
     # via pytest-cov
-docutils==0.17
+docutils==0.17.1
     # via sphinx
 idna==2.10
     # via requests
