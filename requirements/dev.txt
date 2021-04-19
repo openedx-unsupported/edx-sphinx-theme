@@ -39,7 +39,7 @@ django==2.2.20
     #   -c requirements/constraints.txt
     #   code-annotations
     #   edx-lint
-docutils==0.17
+docutils==0.17.1
     # via readme-renderer
 edx-lint==5.0.0
     # via
@@ -51,7 +51,7 @@ filelock==3.0.12
     #   virtualenv
 idna==2.10
     # via requests
-importlib-metadata==3.10.0
+importlib-metadata==4.0.0
     # via
     #   keyring
     #   twine
@@ -81,7 +81,7 @@ pbr==5.5.1
     # via stevedore
 pep517==0.10.0
     # via pip-tools
-pip-tools==6.0.1
+pip-tools==6.1.0
     # via -r requirements/dev.in
 pkginfo==1.7.0
     # via twine
