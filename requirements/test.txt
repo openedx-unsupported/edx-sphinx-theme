@@ -14,7 +14,7 @@ certifi==2021.5.30
     # via requests
 chardet==4.0.0
     # via requests
-coverage[toml]==5.5
+coverage==5.5
     # via pytest-cov
 docutils==0.17.1
     # via sphinx
@@ -44,7 +44,7 @@ pyparsing==2.4.7
     # via packaging
 pytest-catchlog==1.2.2
     # via -r requirements/test.in
-pytest-cov==2.12.0
+pytest-cov==2.12.1
     # via -r requirements/test.in
 pytest==6.2.4
     # via
@@ -70,8 +70,8 @@ sphinxcontrib-websupport==1.2.4
     # via sphinx
 toml==0.10.2
     # via
-    #   coverage
     #   pytest
+    #   pytest-cov
 urllib3==1.26.5
     # via requests
 
