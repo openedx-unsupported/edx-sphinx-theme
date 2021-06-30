@@ -2618,32 +2618,32 @@ code.code-large, .rst-content tt.code-large {
 .full-width {
 	width: 100%
 }
-.wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul {
+.wy-plain-list-disc, .rst-content section ul, .rst-content .toctree-wrapper ul {
 	list-style: disc;
 	line-height: 24px;
 	margin-bottom: 24px
 }
-.wy-plain-list-disc > li, .rst-content .section ul > li, .rst-content .toctree-wrapper ul > li {
+.wy-plain-list-disc > li, .rst-content section ul > li, .rst-content .toctree-wrapper ul > li {
 	list-style: disc;
 	margin-left: 24px;
 	margin-bottom: 8px
 }
-.wy-plain-list-disc li > ul, .rst-content .section ul > li > ul, .rst-content .toctree-wrapper ul > li > ul {
+.wy-plain-list-disc li > ul, .rst-content section ul > li > ul, .rst-content .toctree-wrapper ul > li > ul {
 	margin-bottom: 8px;
 	margin-top: 8px
 }
-.wy-plain-list-disc li > li, .rst-content .section ul > li > li, .rst-content .toctree-wrapper ul > li > li {
+.wy-plain-list-disc li > li, .rst-content section ul > li > li, .rst-content .toctree-wrapper ul > li > li {
 	list-style: circle
 }
-.wy-plain-list-disc li > li > li, .rst-content .section ul > li > li > li, .rst-content .toctree-wrapper ul > li > li > li {
+.wy-plain-list-disc li > li > li, .rst-content section ul > li > li > li, .rst-content .toctree-wrapper ul > li > li > li {
 	list-style: square
 }
-.wy-plain-list-decimal, .rst-content .section ol, .rst-content ol.arabic {
+.wy-plain-list-decimal, .rst-content section ol, .rst-content ol.arabic {
 	list-style: decimal;
 	line-height: 24px;
 	margin-bottom: 12px
 }
-.wy-plain-list-decimal > li, .rst-content .section ol > li, .rst-content ol.arabic > li {
+.wy-plain-list-decimal > li, .rst-content section ol > li, .rst-content ol.arabic > li {
 	list-style: decimal;
 	margin-left: 24px;
 	margin-bottom: 6px
@@ -3456,7 +3456,7 @@ footer p {
 	height: auto !important;
 	margin-bottom: 8px
 }
-.rst-content .section>img {
+.rst-content section>img {
 	margin-bottom: 24px
 }
 .rst-content a.reference.external:after {
@@ -3489,13 +3489,13 @@ footer p {
 	background: transparent !important;
 	border-color: rgba(0, 0, 0, 0.1) !important
 }
-.rst-content .section ol.loweralpha, .rst-content .section ol.loweralpha li {
+.rst-content section ol.loweralpha, .rst-content section ol.loweralpha li {
 	list-style: lower-alpha
 }
-.rst-content .section ol.upperalpha, .rst-content .section ol.upperalpha li {
+.rst-content section ol.upperalpha, .rst-content section ol.upperalpha li {
 	list-style: upper-alpha
 }
-.rst-content .section ol p, .rst-content .section ul p {
+.rst-content section ol p, .rst-content section ul p {
 	margin-bottom: 12px
 }
 .rst-content .line-block {
