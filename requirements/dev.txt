@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.7.2
+astroid==2.7.3
     # via
     #   pylint
     #   pylint-celery
@@ -34,13 +34,9 @@ cryptography==3.4.8
     # via secretstorage
 distlib==0.3.2
     # via virtualenv
-django==2.2.24
-    # via
-    #   -c requirements/constraints.txt
-    #   edx-lint
 docutils==0.17.1
     # via readme-renderer
-edx-lint==5.0.0
+edx-lint==5.1.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
@@ -84,7 +80,7 @@ pip-tools==6.2.0
     # via -r requirements/dev.in
 pkginfo==1.7.1
     # via twine
-platformdirs==2.2.0
+platformdirs==2.3.0
     # via
     #   pylint
     #   virtualenv
@@ -118,8 +114,6 @@ pyparsing==2.4.7
     # via packaging
 python-slugify==5.0.2
     # via code-annotations
-pytz==2021.1
-    # via django
 pyyaml==5.4.1
     # via code-annotations
 readme-renderer==29.0
@@ -143,8 +137,6 @@ six==1.16.0
     #   virtualenv
 snowballstemmer==2.1.0
     # via pydocstyle
-sqlparse==0.4.1
-    # via django
 stevedore==3.4.0
     # via code-annotations
 text-unidecode==1.3
