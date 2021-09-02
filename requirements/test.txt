@@ -32,7 +32,7 @@ packaging==21.0
     # via
     #   pytest
     #   sphinx
-pluggy==0.13.1
+pluggy==1.0.0
     # via pytest
 py==1.10.0
     # via
@@ -42,7 +42,7 @@ pygments==2.10.0
     # via sphinx
 pyparsing==2.4.7
     # via packaging
-pytest==6.2.4
+pytest==6.2.5
     # via
     #   pytest-catchlog
     #   pytest-cov
