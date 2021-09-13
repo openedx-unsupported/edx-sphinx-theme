@@ -60,7 +60,7 @@ jeepney==0.7.1
     #   secretstorage
 jinja2==3.0.1
     # via code-annotations
-keyring==23.1.0
+keyring==23.2.1
     # via twine
 lazy-object-proxy==1.6.0
     # via astroid
