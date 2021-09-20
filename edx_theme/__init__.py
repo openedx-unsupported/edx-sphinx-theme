@@ -15,7 +15,7 @@ __version__ = '3.0.0'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'
-COPYRIGHT = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
+COPYRIGHT = f'{datetime.datetime.now().year}, edX Inc.'
 
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/" \
                     "viewform?entry.1952574704&entry.241692674={pageid}"
@@ -32,7 +32,7 @@ def feedback_form_url(project, page):
     """
     Create a URL for feedback on a particular page in a project.
     """
-    return FEEDBACK_FORM_FMT.format(pageid=quote("{}: {}".format(project, page)))
+    return FEEDBACK_FORM_FMT.format(pageid=quote(f"{project}: {page}"))
 
 
 def update_context(app, pagename, templatename, context, doctree):  # pylint: disable=unused-argument
