@@ -40,7 +40,7 @@ edx-lint==5.2.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.2.0
+filelock==3.3.0
     # via
     #   tox
     #   virtualenv
@@ -58,7 +58,7 @@ jeepney==0.7.1
     # via
     #   keyring
     #   secretstorage
-jinja2==3.0.1
+jinja2==3.0.2
     # via code-annotations
 keyring==23.2.1
     # via twine
@@ -116,7 +116,7 @@ python-slugify==5.0.2
     # via code-annotations
 pyyaml==5.4.1
     # via code-annotations
-readme-renderer==29.0
+readme-renderer==30.0
     # via twine
 requests==2.26.0
     # via
@@ -132,7 +132,6 @@ six==1.16.0
     # via
     #   bleach
     #   edx-lint
-    #   readme-renderer
     #   tox
     #   virtualenv
 snowballstemmer==2.1.0
