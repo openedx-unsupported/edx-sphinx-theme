@@ -5,9 +5,9 @@ edx-sphinx-theme
     :target: https://pypi.python.org/pypi/edx-sphinx-theme/
     :alt: PyPI
 
-.. image:: https://travis-ci.com/edx/edx-sphinx-theme.svg?branch=master
-    :target: https://travis-ci.com/edx/edx-sphinx-theme
-    :alt: Travis
+.. image:: https://github.com/edx/edx-sphinx-theme/workflows/Python%20CI/badge.svg?branch=master
+    :target: https://github.com/edx/edx-sphinx-theme/actions?query=workflow%3A%22Python+CI%22
+    :alt: GitHub CI
 
 .. image:: http://codecov.io/github/edx/edx-sphinx-theme/coverage.svg?branch=master
     :target: http://codecov.io/github/edx/edx-sphinx-theme?branch=master
