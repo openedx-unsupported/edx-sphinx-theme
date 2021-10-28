@@ -16,7 +16,7 @@ charset-normalizer==2.0.7
     # via requests
 coverage[toml]==6.0.2
     # via pytest-cov
-docutils==0.17.1
+docutils==0.18
     # via sphinx
 idna==3.3
     # via requests
@@ -40,7 +40,7 @@ py==1.10.0
     #   pytest-catchlog
 pygments==2.10.0
     # via sphinx
-pyparsing==2.4.7
+pyparsing==3.0.3
     # via packaging
 pytest==6.2.5
     # via
@@ -70,7 +70,7 @@ sphinxcontrib-websupport==1.2.4
     # via sphinx
 toml==0.10.2
     # via pytest
-tomli==1.2.1
+tomli==1.2.2
     # via coverage
 urllib3==1.26.7
     # via requests
