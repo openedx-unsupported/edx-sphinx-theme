@@ -5,3 +5,4 @@ include LICENSE.txt
 include README.rst
 include requirements/base.in
 recursive-include edx_theme *.conf *.html *.png *.gif *.ico *.js *.css *.jpg *.jpeg *.eot *.svg *.ttf *.woff *.py
+include requirements/constraints.txt
