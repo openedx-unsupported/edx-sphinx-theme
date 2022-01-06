@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.9.0
+astroid==2.9.2
     # via
     #   pylint
     #   pylint-celery
@@ -14,7 +14,7 @@ certifi==2021.10.8
     # via requests
 cffi==1.15.0
     # via cryptography
-charset-normalizer==2.0.9
+charset-normalizer==2.0.10
     # via requests
 click==8.0.3
     # via
@@ -58,7 +58,7 @@ jeepney==0.7.1
     #   secretstorage
 jinja2==3.0.3
     # via code-annotations
-keyring==23.4.0
+keyring==23.5.0
     # via twine
 lazy-object-proxy==1.7.1
     # via astroid
@@ -92,7 +92,7 @@ pycparser==2.21
     # via cffi
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pygments==2.10.0
+pygments==2.11.1
     # via readme-renderer
 pylint==2.12.2
     # via
@@ -102,7 +102,7 @@ pylint==2.12.2
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.4.4
+pylint-django==2.5.0
     # via edx-lint
 pylint-plugin-utils==0.7
     # via
@@ -116,7 +116,7 @@ pyyaml==6.0
     # via code-annotations
 readme-renderer==32.0
     # via twine
-requests==2.26.0
+requests==2.27.1
     # via
     #   requests-toolbelt
     #   twine
@@ -160,7 +160,7 @@ typing-extensions==4.0.1
     #   pylint
 urllib3==1.26.7
     # via requests
-virtualenv==20.11.2
+virtualenv==20.13.0
     # via tox
 webencodings==0.5.1
     # via bleach
@@ -170,7 +170,7 @@ wheel==0.37.1
     #   pip-tools
 wrapt==1.13.3
     # via astroid
-zipp==3.6.0
+zipp==3.7.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
