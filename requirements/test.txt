@@ -14,7 +14,7 @@ certifi==2021.10.8
     # via requests
 charset-normalizer==2.0.10
     # via requests
-coverage[toml]==6.2
+coverage[toml]==6.3
     # via pytest-cov
 docutils==0.18.1
     # via sphinx
@@ -40,7 +40,7 @@ py==1.11.0
     #   pytest-catchlog
 pygments==2.11.2
     # via sphinx
-pyparsing==3.0.6
+pyparsing==3.0.7
     # via packaging
 pytest==6.2.5
     # via

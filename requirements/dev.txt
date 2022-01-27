@@ -108,7 +108,7 @@ pylint-plugin-utils==0.7
     # via
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.6
+pyparsing==3.0.7
     # via packaging
 python-slugify==5.0.2
     # via code-annotations
