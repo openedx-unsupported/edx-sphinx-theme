@@ -14,7 +14,7 @@ certifi==2021.10.8
     # via requests
 cffi==1.15.0
     # via cryptography
-charset-normalizer==2.0.11
+charset-normalizer==2.0.12
     # via requests
 click==8.0.3
     # via
@@ -38,13 +38,13 @@ edx-lint==5.2.1
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.4.2
+filelock==3.5.1
     # via
     #   tox
     #   virtualenv
 idna==3.3
     # via requests
-importlib-metadata==4.10.1
+importlib-metadata==4.11.1
     # via
     #   keyring
     #   twine
@@ -102,7 +102,7 @@ pylint==2.12.2
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.5.0
+pylint-django==2.5.1
     # via edx-lint
 pylint-plugin-utils==0.7
     # via
@@ -110,7 +110,7 @@ pylint-plugin-utils==0.7
     #   pylint-django
 pyparsing==3.0.7
     # via packaging
-python-slugify==5.0.2
+python-slugify==6.0.1
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
@@ -154,7 +154,7 @@ tqdm==4.62.3
     # via twine
 twine==3.8.0
     # via -r requirements/dev.in
-typing-extensions==4.0.1
+typing-extensions==4.1.1
     # via
     #   astroid
     #   pylint
