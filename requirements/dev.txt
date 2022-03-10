@@ -114,7 +114,7 @@ python-slugify==6.1.1
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
-readme-renderer==32.0
+readme-renderer==33.0
     # via twine
 requests==2.27.1
     # via
@@ -162,7 +162,7 @@ urllib3==1.26.8
     # via
     #   requests
     #   twine
-virtualenv==20.13.2
+virtualenv==20.13.3
     # via tox
 webencodings==0.5.1
     # via bleach
