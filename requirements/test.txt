@@ -26,7 +26,7 @@ iniconfig==1.1.1
     # via pytest
 jinja2==3.0.3
     # via sphinx
-markupsafe==2.1.0
+markupsafe==2.1.1
     # via jinja2
 packaging==21.3
     # via
@@ -42,7 +42,7 @@ pygments==2.11.2
     # via sphinx
 pyparsing==3.0.7
     # via packaging
-pytest==7.0.1
+pytest==7.1.0
     # via
     #   pytest-catchlog
     #   pytest-cov
@@ -72,7 +72,7 @@ tomli==2.0.1
     # via
     #   coverage
     #   pytest
-urllib3==1.26.8
+urllib3==1.26.9
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
