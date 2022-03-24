@@ -43,7 +43,7 @@ pygments==2.11.2
     #   sphinx
 pyparsing==3.0.7
     # via packaging
-pytz==2021.3
+pytz==2022.1
     # via babel
 readme-renderer==34.0
     # via -r requirements/doc.in

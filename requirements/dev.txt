@@ -150,7 +150,7 @@ tox==3.24.5
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/dev.in
-tqdm==4.63.0
+tqdm==4.63.1
     # via twine
 twine==3.8.0
     # via -r requirements/dev.in
@@ -162,7 +162,7 @@ urllib3==1.26.9
     # via
     #   requests
     #   twine
-virtualenv==20.13.3
+virtualenv==20.13.4
     # via tox
 webencodings==0.5.1
     # via bleach
