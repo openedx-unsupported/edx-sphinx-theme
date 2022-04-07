@@ -13,6 +13,6 @@
 
 # Required to avoid ImportError https://github.com/sphinx-contrib/sphinxcontrib-versioning/issues/66
 sphinx<=1.8.5
-
-# Stay on LTS release
-Django<2.3
+# Jinja2==3.1.0 dropped extension `contextfunction` which conflicts with the pinned Sphinx version
+# Sphinx==5.0.0 has the fix for this issue in it, so it can be updated once Sphinx constraint is updated
+jinja2<3.1.0

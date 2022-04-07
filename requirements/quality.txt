@@ -25,8 +25,10 @@ isort==5.10.1
     # via
     #   -r requirements/quality.in
     #   pylint
-jinja2==3.1.1
-    # via code-annotations
+jinja2==3.0.3
+    # via
+    #   -c requirements/constraints.txt
+    #   code-annotations
 lazy-object-proxy==1.7.1
     # via astroid
 markupsafe==2.1.1
