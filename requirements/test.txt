@@ -42,7 +42,7 @@ py==1.11.0
     #   pytest-catchlog
 pygments==2.11.2
     # via sphinx
-pyparsing==3.0.7
+pyparsing==3.0.8
     # via packaging
 pytest==7.1.1
     # via
