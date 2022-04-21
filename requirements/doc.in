@@ -3,4 +3,5 @@
 -c constraints.txt
 
 doc8                      # reStructuredText style checker
-readme_renderer           # Validates README.rst for usage on PyPI
+twine                     # Validates README.rst for usage on PyPI
+build                     # Needed to build wheel file for twine check
