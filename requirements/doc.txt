@@ -54,7 +54,7 @@ packaging==21.3
     # via
     #   build
     #   sphinx
-pbr==5.8.1
+pbr==5.9.0
     # via stevedore
 pep517==0.12.0
     # via build
@@ -68,7 +68,7 @@ pygments==2.12.0
     #   readme-renderer
     #   rich
     #   sphinx
-pyparsing==3.0.8
+pyparsing==3.0.9
     # via packaging
 pytz==2022.1
     # via babel
@@ -85,7 +85,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==12.3.0
+rich==12.4.1
     # via twine
 secretstorage==3.3.2
     # via keyring
