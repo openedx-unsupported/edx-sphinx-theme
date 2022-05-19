@@ -10,11 +10,11 @@ attrs==21.4.0
     # via pytest
 babel==2.10.1
     # via sphinx
-certifi==2021.10.8
+certifi==2022.5.18
     # via requests
 charset-normalizer==2.0.12
     # via requests
-coverage[toml]==6.3.2
+coverage[toml]==6.3.3
     # via pytest-cov
 docutils==0.18.1
     # via sphinx
