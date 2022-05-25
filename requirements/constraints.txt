@@ -11,6 +11,3 @@
 # Common constraints for edx repos
 -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
 
-# Jinja2==3.1.0 dropped extension `contextfunction` which conflicts with the pinned Sphinx version
-# Sphinx==5.0.0 has the fix for this issue in it, so it can be updated once Sphinx constraint is updated
-jinja2<3.1.0
