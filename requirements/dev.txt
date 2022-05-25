@@ -58,10 +58,8 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jinja2==3.0.3
-    # via
-    #   -c requirements/constraints.txt
-    #   code-annotations
+jinja2==3.1.2
+    # via code-annotations
 keyring==23.5.1
     # via twine
 lazy-object-proxy==1.7.1

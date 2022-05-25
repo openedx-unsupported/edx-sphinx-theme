@@ -43,10 +43,8 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jinja2==3.0.3
-    # via
-    #   -c requirements/constraints.txt
-    #   sphinx
+jinja2==3.1.2
+    # via sphinx
 keyring==23.5.1
     # via twine
 markupsafe==2.1.1

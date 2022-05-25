@@ -26,10 +26,8 @@ importlib-metadata==4.11.4
     # via sphinx
 iniconfig==1.1.1
     # via pytest
-jinja2==3.0.3
-    # via
-    #   -c requirements/constraints.txt
-    #   sphinx
+jinja2==3.1.2
+    # via sphinx
 markupsafe==2.1.1
     # via jinja2
 packaging==21.3
