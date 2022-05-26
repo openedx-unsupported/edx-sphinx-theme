@@ -10,9 +10,9 @@ babel==2.10.1
     # via sphinx
 bleach==5.0.0
     # via readme-renderer
-build==0.7.0
+build==0.8.0
     # via -r requirements/doc.in
-certifi==2022.5.18
+certifi==2022.5.18.1
     # via requests
 cffi==1.15.0
     # via cryptography
@@ -34,7 +34,7 @@ idna==3.3
     # via requests
 imagesize==1.3.0
     # via sphinx
-importlib-metadata==4.11.3
+importlib-metadata==4.11.4
     # via
     #   keyring
     #   twine
@@ -46,7 +46,7 @@ jinja2==3.0.3
     # via
     #   -c requirements/constraints.txt
     #   sphinx
-keyring==23.5.0
+keyring==23.5.1
     # via twine
 markupsafe==2.1.1
     # via jinja2
@@ -85,7 +85,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==12.4.1
+rich==12.4.4
     # via twine
 secretstorage==3.3.2
     # via keyring
