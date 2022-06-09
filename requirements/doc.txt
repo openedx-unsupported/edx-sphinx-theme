@@ -46,7 +46,7 @@ jinja2==3.0.3
     # via
     #   -c requirements/constraints.txt
     #   sphinx
-keyring==23.5.1
+keyring==23.6.0
     # via twine
 markupsafe==2.1.1
     # via jinja2
@@ -58,7 +58,7 @@ pbr==5.9.0
     # via stevedore
 pep517==0.12.0
     # via build
-pkginfo==1.8.2
+pkginfo==1.8.3
     # via twine
 pycparser==2.21
     # via cffi
