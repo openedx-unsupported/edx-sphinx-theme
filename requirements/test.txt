@@ -16,11 +16,11 @@ charset-normalizer==2.1.0
     # via requests
 coverage[toml]==6.4.1
     # via pytest-cov
-docutils==0.18.1
+docutils==0.19
     # via sphinx
 idna==3.3
     # via requests
-imagesize==1.3.0
+imagesize==1.4.1
     # via sphinx
 iniconfig==1.1.1
     # via pytest
