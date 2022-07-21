@@ -31,7 +31,7 @@ cryptography==37.0.4
     # via secretstorage
 dill==0.3.5.1
     # via pylint
-distlib==0.3.4
+distlib==0.3.5
     # via virtualenv
 docutils==0.19
     # via readme-renderer
@@ -61,7 +61,7 @@ jinja2==3.0.3
     # via
     #   -c requirements/constraints.txt
     #   code-annotations
-keyring==23.6.0
+keyring==23.7.0
     # via twine
 lazy-object-proxy==1.7.1
     # via astroid
@@ -93,7 +93,7 @@ pygments==2.12.0
     # via
     #   readme-renderer
     #   rich
-pylint==2.14.4
+pylint==2.14.5
     # via
     #   edx-lint
     #   pylint-celery
