@@ -22,7 +22,7 @@ commonmark==0.9.1
     # via rich
 cryptography==37.0.4
     # via secretstorage
-doc8==0.11.2
+doc8==1.0.0
     # via -r requirements/doc.in
 docutils==0.19
     # via
@@ -109,12 +109,13 @@ stevedore==4.0.0
 tomli==2.0.1
     # via
     #   build
+    #   doc8
     #   pep517
 twine==4.0.1
     # via -r requirements/doc.in
 typing-extensions==4.3.0
     # via rich
-urllib3==1.26.10
+urllib3==1.26.11
     # via
     #   requests
     #   twine
