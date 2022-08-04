@@ -56,7 +56,7 @@ packaging==21.3
     #   sphinx
 pbr==5.9.0
     # via stevedore
-pep517==0.12.0
+pep517==0.13.0
     # via build
 pkginfo==1.8.3
     # via twine
