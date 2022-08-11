@@ -39,7 +39,7 @@ edx-lint==5.2.4
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.7.1
+filelock==3.8.0
     # via
     #   tox
     #   virtualenv
@@ -61,7 +61,7 @@ jinja2==3.0.3
     # via
     #   -c requirements/constraints.txt
     #   code-annotations
-keyring==23.7.0
+keyring==23.8.2
     # via twine
 lazy-object-proxy==1.7.1
     # via astroid
@@ -113,7 +113,7 @@ python-slugify==6.1.2
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
-readme-renderer==35.0
+readme-renderer==36.0
     # via twine
 requests==2.28.1
     # via
@@ -142,7 +142,7 @@ toml==0.10.2
     # via tox
 tomli==2.0.1
     # via pylint
-tomlkit==0.11.1
+tomlkit==0.11.3
     # via pylint
 tox==3.25.1
     # via
@@ -161,7 +161,7 @@ urllib3==1.26.11
     # via
     #   requests
     #   twine
-virtualenv==20.16.2
+virtualenv==20.16.3
     # via tox
 webencodings==0.5.1
     # via bleach
