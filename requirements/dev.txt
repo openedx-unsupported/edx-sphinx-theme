@@ -71,7 +71,7 @@ mccabe==0.7.0
     # via pylint
 packaging==21.3
     # via tox
-pbr==5.9.0
+pbr==5.10.0
     # via stevedore
 pkginfo==1.8.3
     # via twine
@@ -89,7 +89,7 @@ pycparser==2.21
     # via cffi
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pygments==2.12.0
+pygments==2.13.0
     # via
     #   readme-renderer
     #   rich
@@ -125,7 +125,7 @@ rfc3986==2.0.0
     # via twine
 rich==12.5.1
     # via twine
-secretstorage==3.3.2
+secretstorage==3.3.3
     # via keyring
 six==1.16.0
     # via
@@ -142,7 +142,7 @@ toml==0.10.2
     # via tox
 tomli==2.0.1
     # via pylint
-tomlkit==0.11.3
+tomlkit==0.11.4
     # via pylint
 tox==3.25.1
     # via
