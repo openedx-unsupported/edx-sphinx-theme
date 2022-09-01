@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.11.7
+astroid==2.12.5
     # via
     #   pylint
     #   pylint-celery
@@ -31,7 +31,7 @@ cryptography==37.0.4
     # via secretstorage
 dill==0.3.5.1
     # via pylint
-distlib==0.3.5
+distlib==0.3.6
     # via virtualenv
 docutils==0.19
     # via readme-renderer
@@ -93,7 +93,7 @@ pygments==2.13.0
     # via
     #   readme-renderer
     #   rich
-pylint==2.14.5
+pylint==2.15.0
     # via
     #   edx-lint
     #   pylint-celery
@@ -161,7 +161,7 @@ urllib3==1.26.12
     # via
     #   requests
     #   twine
-virtualenv==20.16.3
+virtualenv==20.16.4
     # via tox
 webencodings==0.5.1
     # via bleach
@@ -171,6 +171,3 @@ wrapt==1.14.1
     # via astroid
 zipp==3.8.1
     # via importlib-metadata
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
