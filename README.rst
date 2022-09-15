@@ -5,8 +5,8 @@ edx-sphinx-theme
     :target: https://pypi.python.org/pypi/edx-sphinx-theme/
     :alt: PyPI
 
-.. image:: https://github.com/edx/edx-sphinx-theme/workflows/Python%20CI/badge.svg?branch=master
-    :target: https://github.com/edx/edx-sphinx-theme/actions?query=workflow%3A%22Python+CI%22
+.. image:: https://github.com/openedx/edx-sphinx-theme/workflows/Python%20CI/badge.svg?branch=master
+    :target: https://github.com/openedx/edx-sphinx-theme/actions?query=workflow%3A%22Python+CI%22
     :alt: GitHub CI
 
 .. image:: http://codecov.io/github/edx/edx-sphinx-theme/coverage.svg?branch=master
@@ -22,7 +22,7 @@ edx-sphinx-theme
     :alt: Supported Python versions
 
 .. image:: https://img.shields.io/github/license/edx/edx-sphinx-theme.svg
-    :target: https://github.com/edx/edx-sphinx-theme/blob/master/LICENSE.txt
+    :target: https://github.com/openedx/edx-sphinx-theme/blob/master/LICENSE.txt
     :alt: License
 
 edx-sphinx-theme is a Sphinx theme for `Open edX`_ documentation.  It should be
@@ -111,7 +111,7 @@ How To Contribute
 
 Contributions are very welcome.
 
-Please read `How To Contribute <https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
+Please read `How To Contribute <https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
 
 Even though they were written with ``edx-platform`` in mind, the guidelines
 should be followed for Open edX code in general.
