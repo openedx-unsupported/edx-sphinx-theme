@@ -20,7 +20,7 @@ charset-normalizer==2.1.1
     # via requests
 commonmark==0.9.1
     # via rich
-cryptography==38.0.3
+cryptography==38.0.4
     # via secretstorage
 doc8==1.0.0
     # via -r requirements/doc.in
@@ -34,7 +34,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==5.0.0
+importlib-metadata==5.1.0
     # via
     #   keyring
     #   twine
@@ -62,7 +62,7 @@ pbr==5.11.0
     # via stevedore
 pep517==0.13.0
     # via build
-pkginfo==1.8.3
+pkginfo==1.9.2
     # via twine
 pycparser==2.21
     # via cffi
@@ -108,24 +108,24 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinxcontrib-websupport
 sphinxcontrib-websupport==1.2.4
     # via sphinx
-stevedore==4.1.0
+stevedore==4.1.1
     # via doc8
 tomli==2.0.1
     # via
     #   build
     #   doc8
     #   pep517
-twine==4.0.1
+twine==4.0.2
     # via -r requirements/doc.in
 typing-extensions==4.4.0
     # via rich
-urllib3==1.26.12
+urllib3==1.26.13
     # via
     #   requests
     #   twine
 webencodings==0.5.1
     # via bleach
-zipp==3.10.0
+zipp==3.11.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
