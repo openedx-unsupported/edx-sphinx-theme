@@ -49,7 +49,7 @@ importlib-metadata==5.1.0
     # via
     #   keyring
     #   twine
-isort==5.10.1
+isort==5.11.2
     # via
     #   -r requirements/quality.in
     #   pylint
