@@ -14,11 +14,11 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
-coverage[toml]==7.0.0
+coverage[toml]==7.0.1
     # via pytest-cov
 docutils==0.19
     # via sphinx
-exceptiongroup==1.0.4
+exceptiongroup==1.1.0
     # via pytest
 idna==3.4
     # via requests

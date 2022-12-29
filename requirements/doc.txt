@@ -22,7 +22,7 @@ commonmark==0.9.1
     # via rich
 cryptography==38.0.4
     # via secretstorage
-doc8==1.0.0
+doc8==1.1.1
     # via -r requirements/doc.in
 docutils==0.19
     # via
@@ -38,7 +38,7 @@ importlib-metadata==5.2.0
     # via
     #   keyring
     #   twine
-importlib-resources==5.10.1
+importlib-resources==5.10.2
     # via keyring
 jaraco-classes==3.2.3
     # via keyring
