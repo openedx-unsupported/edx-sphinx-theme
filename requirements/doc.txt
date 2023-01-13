@@ -10,7 +10,7 @@ babel==2.11.0
     # via sphinx
 bleach==5.0.1
     # via readme-renderer
-build==0.9.0
+build==0.10.0
     # via -r requirements/doc.in
 certifi==2022.12.7
     # via requests
@@ -56,15 +56,13 @@ markupsafe==2.1.1
     # via jinja2
 more-itertools==9.0.0
     # via jaraco-classes
-packaging==22.0
+packaging==23.0
     # via
     #   build
     #   sphinx
-pbr==5.11.0
+pbr==5.11.1
     # via stevedore
-pep517==0.13.0
-    # via build
-pkginfo==1.9.3
+pkginfo==1.9.6
     # via twine
 pycparser==2.21
     # via cffi
@@ -74,6 +72,8 @@ pygments==2.14.0
     #   readme-renderer
     #   rich
     #   sphinx
+pyproject-hooks==1.0.0
+    # via build
 pytz==2022.7
     # via babel
 readme-renderer==37.3
@@ -89,7 +89,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==13.0.0
+rich==13.0.1
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -102,6 +102,7 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==1.8.5
     # via
+    #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
     #   -r requirements/base.in
 sphinxcontrib-serializinghtml==1.1.5
@@ -114,12 +115,12 @@ tomli==2.0.1
     # via
     #   build
     #   doc8
-    #   pep517
+    #   pyproject-hooks
 twine==4.0.2
     # via -r requirements/doc.in
 typing-extensions==4.4.0
     # via rich
-urllib3==1.26.13
+urllib3==1.26.14
     # via
     #   requests
     #   twine

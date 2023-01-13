@@ -14,7 +14,7 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
-coverage[toml]==7.0.3
+coverage[toml]==7.0.5
     # via pytest-cov
 docutils==0.19
     # via sphinx
@@ -24,7 +24,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-iniconfig==1.1.1
+iniconfig==2.0.0
     # via pytest
 jinja2==3.0.3
     # via
@@ -32,7 +32,7 @@ jinja2==3.0.3
     #   sphinx
 markupsafe==2.1.1
     # via jinja2
-packaging==22.0
+packaging==23.0
     # via
     #   pytest
     #   sphinx
@@ -62,6 +62,7 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==1.8.5
     # via
+    #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
     #   -r requirements/base.in
 sphinxcontrib-serializinghtml==1.1.5
@@ -72,7 +73,7 @@ tomli==2.0.1
     # via
     #   coverage
     #   pytest
-urllib3==1.26.13
+urllib3==1.26.14
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
