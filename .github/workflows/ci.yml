@@ -39,7 +39,7 @@ jobs:
       run: tox
 
     - name: Run Coverage
-      if: matrix.python-version == '3.8' && matrix.toxenv=='sphinx14'
+      if: matrix.python-version == '3.8' && matrix.toxenv=='sphinx50'
       uses: codecov/codecov-action@v1
       with:
         fail_ci_if_error: true
