@@ -15,7 +15,7 @@ jobs:
       matrix:
         os: [ubuntu-20.04]
         python-version: ['3.8']
-        toxenv: [sphinx11, sphinx14, docs, quality]
+        toxenv: [sphinx50, docs, quality]
 
     steps:
     - uses: actions/checkout@v2
@@ -39,7 +39,7 @@ jobs:
       run: tox
 
     - name: Run Coverage
-      if: matrix.python-version == '3.8' && matrix.toxenv=='sphinx14'
+      if: matrix.python-version == '3.8' && matrix.toxenv=='sphinx50'
       uses: codecov/codecov-action@v1
       with:
         fail_ci_if_error: true
