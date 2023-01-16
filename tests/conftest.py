@@ -7,7 +7,7 @@ import os
 from shutil import rmtree
 
 import pytest
-from sphinx import build_main
+from sphinx.cmd.build import build_main
 
 
 @pytest.fixture(scope='session')
@@ -18,7 +18,7 @@ def html_dir():
     docs_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', 'docs')
     build_path = os.path.join(docs_path, '_test', 'html')
     os.chdir(docs_path)
-    result = build_main(['sphinx-build', '-b', 'html', '.', build_path])
+    result = build_main(['-b', 'html', '.', build_path])
     assert result == 0
     yield build_path
     rmtree(build_path)
