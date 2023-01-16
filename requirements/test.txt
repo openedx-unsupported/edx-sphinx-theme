@@ -58,7 +58,6 @@ six==1.16.0
     # via -r requirements/base.in
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==5.3.0
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
