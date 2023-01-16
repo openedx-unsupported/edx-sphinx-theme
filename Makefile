@@ -55,7 +55,7 @@ upgrade: $(COMMON_CONSTRAINTS_TXT)
 	pip-compile --rebuild --upgrade -o requirements/test.txt requirements/base.in requirements/test.in
 	pip-compile --rebuild --upgrade -o requirements/ci.txt requirements/ci.in
 	# Let tox control the Sphinx version for tests
-	sed '/Sphinx==/d' requirements/test.txt > requirements/test.tmp
+	sed '/sphinx==/d' requirements/test.txt > requirements/test.tmp
 	mv requirements/test.tmp requirements/test.txt
 
 quality: ## check coding style with pycodestyle and pylint
