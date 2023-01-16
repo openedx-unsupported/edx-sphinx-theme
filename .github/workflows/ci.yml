@@ -15,7 +15,7 @@ jobs:
       matrix:
         os: [ubuntu-20.04]
         python-version: ['3.8']
-        toxenv: [sphinx11, sphinx14, docs, quality]
+        toxenv: [sphinx50, docs, quality]
 
     steps:
     - uses: actions/checkout@v2
