@@ -7,7 +7,7 @@ import os
 from shutil import rmtree
 
 import pytest
-from sphinx import build_main
+from sphinx.cmd.build import build_main
 
 
 @pytest.fixture(scope='session')
