@@ -14,7 +14,7 @@ Change Log
 3.1.0 --- 2021-01-17
 ~~~~~~~~~~~~~~~~~~~~
 
-* Upgraded the `sphinx` version.
+* Upgraded the `sphinx` version
 
 3.0.0 --- 2021-07-01
 ~~~~~~~~~~~~~~~~~~~~
