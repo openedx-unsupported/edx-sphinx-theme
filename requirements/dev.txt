@@ -67,7 +67,7 @@ keyring==23.13.1
     # via twine
 lazy-object-proxy==1.9.0
     # via astroid
-markupsafe==2.1.1
+markupsafe==2.1.2
     # via jinja2
 mccabe==0.7.0
     # via pylint
@@ -91,7 +91,7 @@ pycodestyle==2.10.0
     # via -r requirements/quality.in
 pycparser==2.21
     # via cffi
-pydocstyle==6.2.3
+pydocstyle==6.3.0
     # via -r requirements/quality.in
 pygments==2.14.0
     # via
