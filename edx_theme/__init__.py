@@ -6,12 +6,17 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import datetime
 import os
+from warnings import warn
 
 import six
 from six.moves.urllib.parse import quote  # pylint: disable=wrong-import-order
 
+warn("The edx-sphinx-theme is deprecated.  Switch to the sphinx-boook-theme.  "
+     "See https://docs.openedx.org/en/latest/developers/how-tos/switch-to-the-sphinx-book-theme.html",
+     DeprecationWarning, stacklevel=2)
+
 # When you change this, also update the CHANGELOG.rst file, thanks.
-__version__ = '3.1.0'
+__version__ = '3.1.1'
 
 # Use these constants in the conf.py for Sphinx in your repository
 AUTHOR = 'edX Inc.'
