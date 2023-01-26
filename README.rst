@@ -7,12 +7,11 @@ DEPRECATION WARNING
 This Sphinx theme is now deprecated and will not recieve further updates.  For
 details see https://github.com/openedx/edx-sphinx-theme/issues/184.
 
-
-Summary
--------
 It is recommended that you switch to the ``sphinx-book-theme`` for any docs that
 you're writing that use this theme.  Instructions to do so can be found `here <https://docs.openedx.org/en/latest/developers/how-tos/switch-to-the-sphinx-book-theme.html>`
 
+Summary
+-------
 .. image:: https://img.shields.io/pypi/v/edx-sphinx-theme.svg
     :target: https://pypi.python.org/pypi/edx-sphinx-theme/
     :alt: PyPI
