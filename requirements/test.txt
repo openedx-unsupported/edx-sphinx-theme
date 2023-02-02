@@ -66,7 +66,7 @@ sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-htmlhelp==2.0.1
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
@@ -80,5 +80,5 @@ tomli==2.0.1
     #   pytest
 urllib3==1.26.14
     # via requests
-zipp==3.11.0
+zipp==3.12.0
     # via importlib-metadata
