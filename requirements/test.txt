@@ -80,5 +80,5 @@ tomli==2.0.1
     #   pytest
 urllib3==1.26.14
     # via requests
-zipp==3.12.0
+zipp==3.12.1
     # via importlib-metadata
