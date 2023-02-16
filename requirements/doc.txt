@@ -117,7 +117,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-stevedore==4.1.1
+stevedore==5.0.0
     # via doc8
 tomli==2.0.1
     # via
@@ -126,7 +126,7 @@ tomli==2.0.1
     #   pyproject-hooks
 twine==4.0.2
     # via -r requirements/doc.in
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via rich
 urllib3==1.26.14
     # via
@@ -134,7 +134,7 @@ urllib3==1.26.14
     #   twine
 webencodings==0.5.1
     # via bleach
-zipp==3.12.1
+zipp==3.13.0
     # via
     #   importlib-metadata
     #   importlib-resources
