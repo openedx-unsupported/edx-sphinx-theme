@@ -6,15 +6,13 @@
 #
 alabaster==0.7.13
     # via sphinx
-attrs==22.2.0
-    # via pytest
 babel==2.12.1
     # via sphinx
 certifi==2022.12.7
     # via requests
 charset-normalizer==3.1.0
     # via requests
-coverage[toml]==7.2.1
+coverage[toml]==7.2.3
     # via pytest-cov
 docutils==0.19
     # via sphinx
@@ -24,7 +22,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.0.0
+importlib-metadata==6.5.0
     # via sphinx
 iniconfig==2.0.0
     # via pytest
@@ -32,7 +30,7 @@ jinja2==3.1.2
     # via sphinx
 markupsafe==2.1.2
     # via jinja2
-packaging==23.0
+packaging==23.1
     # via
     #   pytest
     #   sphinx
@@ -40,9 +38,9 @@ pluggy==1.0.0
     # via pytest
 py==1.11.0
     # via pytest-catchlog
-pygments==2.14.0
+pygments==2.15.1
     # via sphinx
-pytest==7.2.2
+pytest==7.3.1
     # via
     #   pytest-catchlog
     #   pytest-cov
@@ -50,7 +48,7 @@ pytest-catchlog==1.2.2
     # via -r requirements/test.in
 pytest-cov==4.0.0
     # via -r requirements/test.in
-pytz==2022.7.1
+pytz==2023.3
     # via babel
 requests==2.28.2
     # via sphinx
