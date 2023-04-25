@@ -14,12 +14,8 @@ build==0.10.0
     # via -r requirements/doc.in
 certifi==2022.12.7
     # via requests
-cffi==1.15.1
-    # via cryptography
 charset-normalizer==3.1.0
     # via requests
-cryptography==40.0.2
-    # via secretstorage
 doc8==1.1.1
     # via -r requirements/doc.in
 docutils==0.19
@@ -32,7 +28,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.5.0
+importlib-metadata==6.6.0
     # via
     #   keyring
     #   sphinx
@@ -41,10 +37,6 @@ importlib-resources==5.12.0
     # via keyring
 jaraco-classes==3.2.3
     # via keyring
-jeepney==0.8.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.2
     # via sphinx
 keyring==23.13.1
@@ -65,8 +57,6 @@ pbr==5.11.1
     # via stevedore
 pkginfo==1.9.6
     # via twine
-pycparser==2.21
-    # via cffi
 pygments==2.15.1
     # via
     #   doc8
@@ -92,8 +82,6 @@ rfc3986==2.0.0
     # via twine
 rich==13.3.4
     # via twine
-secretstorage==3.3.3
-    # via keyring
 six==1.16.0
     # via
     #   -r requirements/base.in
