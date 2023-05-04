@@ -81,7 +81,7 @@ pbr==5.11.1
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.4.0
+platformdirs==3.5.0
     # via
     #   pylint
     #   virtualenv
@@ -123,11 +123,11 @@ requests==2.29.0
     # via
     #   requests-toolbelt
     #   twine
-requests-toolbelt==0.10.1
+requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.3.4
+rich==13.3.5
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -146,7 +146,7 @@ tomli==2.0.1
     # via
     #   pylint
     #   tox
-tomlkit==0.11.7
+tomlkit==0.11.8
     # via pylint
 tox==3.28.0
     # via
@@ -166,7 +166,7 @@ urllib3==1.26.15
     # via
     #   requests
     #   twine
-virtualenv==20.22.0
+virtualenv==20.23.0
     # via tox
 webencodings==0.5.1
     # via bleach
